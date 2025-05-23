@@ -2,11 +2,16 @@ import streamlit as st
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
+from scraper.marketing_content_generator import generate_marketing_content
+import os
+from urllib.parse import urljoin
+import re
 
 def generate_contest_summary(contest):
     """Generate a summary of the contest details, including scraped detail page content if possible."""
     detail_html = None
     detail_url = contest.get('Link')
+    image_path = None
     if detail_url:
         try:
             resp = requests.get(detail_url, timeout=10)
@@ -16,10 +21,30 @@ def generate_contest_summary(contest):
             if detail_area:
                 # Extract the main text content, preserving basic formatting
                 detail_html = detail_area.prettify()
+                # Try to extract image from <div class="img_area"><img ...>
+                img_area = detail_area.find('div', class_='img_area')
+                if img_area:
+                    img_tag = img_area.find('img')
+                    if img_tag and img_tag.has_attr('src'):
+                        img_url = img_tag['src']
+                        # Make absolute URL if needed
+                        if img_url.startswith('/'):
+                            img_url = urljoin('https://www.contestkorea.com', img_url)
+                        # Download and save image locally
+                        img_resp = requests.get(img_url, timeout=10)
+                        if img_resp.status_code == 200:
+                            img_dir = 'downloaded_images'
+                            os.makedirs(img_dir, exist_ok=True)
+                            img_filename = f"{contest['Title'][:50].replace(' ', '_').replace('/', '_')}.jpg"
+                            image_path = os.path.join(img_dir, img_filename)
+                            with open(image_path, 'wb') as f:
+                                f.write(img_resp.content)
         except Exception as e:
             detail_html = None
+            image_path = None
     if detail_html:
-        # Display the scraped detail HTML using st.markdown
+        # Remove <div class="img_area">...</div> from detail_html
+        detail_html = re.sub(r'<div[^>]*class=["\"][^"\"]*img_area[^"\"]*["\"][^>]*>.*?</div>', '', detail_html, flags=re.IGNORECASE|re.DOTALL)
         summary = f"""
 ### {contest['Title']}
 
@@ -40,8 +65,7 @@ def generate_contest_summary(contest):
 
 **Contest Details:**
 """
-        # Instead of returning the HTML as part of the string, return a tuple (summary, detail_html)
-        return summary, detail_html
+        return summary, detail_html, image_path
     else:
         # Fallback to original summary
         summary = f"""
@@ -65,7 +89,7 @@ def generate_contest_summary(contest):
 - Target: {contest['Target']}
 - Application Method: Online (via contestkorea.com)
 """
-        return summary, None
+        return summary, None, None
 
 def display_contests(contests):
     if contests:
@@ -137,13 +161,11 @@ def display_contests(contests):
         st.subheader(f"Showing {len(filtered_df)} contests")
         
         # Create a form for the table
+        selected_rows = pd.DataFrame()
         with st.form(key="contests_form"):
-            # Add checkboxes to the dataframe
             filtered_df['Select'] = False
-            # Reorder columns
             column_order = ['Select', 'D-Day', 'Title', 'Category', 'Organization', 'Target', 'Date Info', 'Link']
             filtered_df = filtered_df[column_order]
-            # Display the data with interactive checkboxes
             edited_df = st.data_editor(
                 filtered_df,
                 column_config={
@@ -186,19 +208,51 @@ def display_contests(contests):
                 use_container_width=True,
                 key="korea_data_editor"
             )
-            # Add submit button
             submit_button = st.form_submit_button("View Selected Summary")
-            # Handle form submission
             if submit_button:
                 selected_rows = edited_df[edited_df['Select'] == True]
-                for _, row in selected_rows.iterrows():
-                    summary, detail_html = generate_contest_summary(row)
-                    summary_container.markdown(summary)
-                    if detail_html:
-                        st.success("Contest detail page scraped successfully.")
-                        st.markdown(detail_html, unsafe_allow_html=True)
-                    else:
-                        st.warning("Could not scrape contest detail page. Showing basic info only.")
+                st.session_state['selected_rows'] = selected_rows
+        # After the form, retrieve selected_rows from session state if available
+        if 'selected_rows' in st.session_state:
+            selected_rows = st.session_state['selected_rows']
+        else:
+            selected_rows = pd.DataFrame()
+        # After the form, display summaries and buttons for selected rows
+        if not isinstance(selected_rows, pd.DataFrame):
+            selected_rows = pd.DataFrame(selected_rows)
+        if not selected_rows.empty:
+            for idx, row in selected_rows.iterrows():
+                summary, detail_html, image_path = generate_contest_summary(row)
+                summary_container.markdown(summary)
+                if detail_html:
+                    st.success("Contest detail page scraped successfully.")
+                    st.markdown(detail_html, unsafe_allow_html=True)
+                    if image_path:
+                        img_key = f"show_full_{row['Title']}"
+                        if img_key not in st.session_state:
+                            st.session_state[img_key] = False
+                        toggle_label = "Show Small Image" if st.session_state[img_key] else "Show Full Image"
+                        if st.button(f"{toggle_label}: {row['Title']}", key=f"toggle_img_{row['Title']}_{idx}"):
+                            st.session_state[img_key] = not st.session_state[img_key]
+                            st.rerun()
+                        if st.session_state[img_key]:
+                            st.image(image_path, caption="Contest Poster (click button to shrink)")
+                        else:
+                            st.image(image_path, caption="Contest Poster (click button to enlarge)", width=200)
+                    # Add a debug log to confirm this code path is reached
+                    st.info(f"[DEBUG] Ready to show Generate Marketing Content button for {row['Title']} (idx={idx})")
+                    if st.button(f"Generate Marketing Content for {row['Title']}", key=f"marketing_btn_{row['Title']}_{idx}"):
+                        st.info("[DEBUG] Button pressed. Calling generate_marketing_content...")
+                        with st.spinner("Generating marketing content with OpenAI..."):
+                            try:
+                                marketing_result = generate_marketing_content(detail_html)
+                                st.success("[DEBUG] OpenAI API call succeeded.")
+                                st.subheader("Marketing Content")
+                                st.json(marketing_result)
+                            except Exception as e:
+                                st.error(f"[DEBUG] OpenAI API call failed: {e}")
+                else:
+                    st.warning("Could not scrape contest detail page. Showing basic info only.")
         
         # Add download button
         csv = filtered_df.to_csv(index=False)
