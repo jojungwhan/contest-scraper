@@ -22,8 +22,8 @@ wheels/
 
 # Virtual Environment
 venv/
-env/
 ENV/
+env/
 
 # IDE
 .idea/
@@ -34,9 +34,6 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
-
-# Streamlit
-.streamlit/
 
 # Logs
 *.log

@@ -1,42 +1,46 @@
 # Contest Korea Scraper
 
-A Streamlit application that scrapes contest information from Contest Korea website and displays it in a table format.
+A Streamlit application that scrapes and displays contest information from contestkorea.com.
 
 ## Features
 
-- Scrapes contest information including title, organization, date info, and links
-- Displays data in a clean, interactive table
-- Allows downloading the data as CSV
-- Auto-refresh functionality
+- Scrapes contest information including deadlines, categories, and details
+- Displays contests in a sortable table
+- Filters contests by category
+- Shows contest summaries
+- Exports data to CSV
+- Color-coded D-Day display
+- Sortable columns
 
 ## Installation
 
-1. Clone this repository
-2. Install the required dependencies:
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/contest-korea-scraper.git
+cd contest-korea-scraper
+```
+
+2. Install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Usage
 
-1. Run the Streamlit app:
+Run the Streamlit app:
 ```bash
 streamlit run app.py
 ```
 
-2. Open your web browser and navigate to the URL shown in the terminal (usually http://localhost:8501)
-3. Click the "Refresh Contests" button to fetch the latest contest information
-4. Use the download button to save the data as a CSV file
-
 ## Requirements
 
 - Python 3.7+
-- Streamlit
-- Requests
-- BeautifulSoup4
-- Pandas
+- streamlit
+- requests
+- beautifulsoup4
+- pandas
 - lxml
 
-## Note
+## License
 
-This application is for educational purposes only. Please respect the website's terms of service and robots.txt when using this scraper. 
+MIT License 

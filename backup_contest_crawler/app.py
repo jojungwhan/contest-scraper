@@ -144,10 +144,7 @@ def scrape_contests(max_pages=None):
                         
                         target_li = host_ul.find('li', class_='icon_2')
                         if target_li:
-                            # Remove '대상.' and clean up spaces
                             target = target_li.text.replace('대상.', '').strip()
-                            # Remove multiple spaces and newlines
-                            target = ' '.join(target.split())
                     
                     # Get date information
                     date_div = item.find('div', class_='date')
@@ -215,43 +212,30 @@ def scrape_contests(max_pages=None):
         logger.error(f"Error scraping contests: {str(e)}")
         return all_contests
 
-def generate_contest_summary(contest):
-    """Generate a summary of the contest details."""
-    summary = f"""
-### {contest['Title']}
-
-**Category:** {contest['Category']}
-
-**Organization:** {contest['Organization']}
-
-**Target Participants:** {contest['Target']}
-
-**Deadline Information:**
-{contest['Date Info']}
-
-**Days Left:** {contest['D-Day']} days
-
-**Application Link:** {contest['Link']}
-
-**Keywords:**
-- Category: {contest['Category']}
-- Target: {contest['Target']}
-- Application Method: Online (via contestkorea.com)
-"""
-    return summary
-
 def display_contests(contests):
     if contests:
         df = pd.DataFrame(contests)
         
-        # Sort by D-Day (ascending order - smallest/most urgent first)
-        df = df.sort_values('D-Day', ascending=True)
+        # Sort by D-Day
+        df = df.sort_values('D-Day')
         
-        # Create a container for the summary
-        summary_container = st.empty()
+        # Reorder columns to put D-Day first
+        column_order = [
+            'D-Day',
+            'Category',
+            'Title',
+            'Organization',
+            'Target',
+            'Date Info',
+            'Link'
+        ]
+        df = df[column_order]
         
         # Get unique categories for filtering
         unique_categories = sorted(df['Category'].unique())
+        
+        # Increment the counter for unique key generation
+        st.session_state.filter_counter += 1
         
         # Add category filter with a dynamic unique key
         st.subheader("Filter by Category")
@@ -272,67 +256,43 @@ def display_contests(contests):
         # Display contest count
         st.subheader(f"Showing {len(filtered_df)} contests")
         
-        # Create a form for the table
-        with st.form(key="contests_form"):
-            # Add checkboxes to the dataframe
-            filtered_df['Select'] = False
-            
-            # Reorder columns
-            column_order = ['Select', 'D-Day', 'Title', 'Category', 'Organization', 'Target', 'Date Info', 'Link']
-            filtered_df = filtered_df[column_order]
-            
-            # Display the data with sortable columns
-            st.dataframe(
-                filtered_df,
-                column_config={
-                    "Select": st.column_config.CheckboxColumn(
-                        "Select",
-                        help="Select contests to view summary",
-                        default=False,
-                    ),
-                    "D-Day": st.column_config.NumberColumn(
-                        "D-Day",
-                        help="Days left until deadline",
-                        format="%d",
-                    ),
-                    "Title": st.column_config.TextColumn(
-                        "Title",
-                        help="Contest title",
-                    ),
-                    "Category": st.column_config.TextColumn(
-                        "Category",
-                        help="Contest category",
-                    ),
-                    "Organization": st.column_config.TextColumn(
-                        "Organization",
-                        help="Contest organizer",
-                    ),
-                    "Target": st.column_config.TextColumn(
-                        "Target",
-                        help="Target participants",
-                    ),
-                    "Date Info": st.column_config.TextColumn(
-                        "Date Info",
-                        help="Contest dates",
-                    ),
-                    "Link": st.column_config.LinkColumn(
-                        "Link",
-                        help="Contest link",
-                    ),
-                },
-                hide_index=True,
-                use_container_width=True,
-            )
-            
-            # Add submit button
-            submit_button = st.form_submit_button("View Selected Summary")
-            
-            # Handle form submission
-            if submit_button:
-                selected_rows = filtered_df[filtered_df['Select'] == True]
-                for _, row in selected_rows.iterrows():
-                    summary = generate_contest_summary(row)
-                    summary_container.markdown(summary)
+        # Display the data with maximum width columns
+        st.dataframe(
+            filtered_df,
+            column_config={
+                "D-Day": st.column_config.NumberColumn(
+                    "D-Day",
+                    width="max",
+                    format="%d",
+                ),
+                "Category": st.column_config.TextColumn(
+                    "Category",
+                    width="max",
+                ),
+                "Title": st.column_config.TextColumn(
+                    "Title",
+                    width="max",
+                ),
+                "Organization": st.column_config.TextColumn(
+                    "Organization",
+                    width="max",
+                ),
+                "Target": st.column_config.TextColumn(
+                    "Target",
+                    width="max",
+                ),
+                "Date Info": st.column_config.TextColumn(
+                    "Date Info",
+                    width="max",
+                ),
+                "Link": st.column_config.LinkColumn(
+                    "Link",
+                    width="max",
+                ),
+            },
+            hide_index=True,
+            use_container_width=True,
+        )
         
         # Add download button
         csv = filtered_df.to_csv(index=False)
@@ -357,7 +317,7 @@ def main():
         "Maximum number of pages to scrape",
         min_value=1,
         max_value=20,
-        value=1,
+        value=5,
         help="Limit the number of pages to scrape to avoid long loading times",
         key="page_limit_slider"  # Add a unique key for the slider
     )
