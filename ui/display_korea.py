@@ -38,7 +38,12 @@ def display_contests(contests):
         
         # Get unique categories for filtering
         unique_categories = sorted(df['Category'].unique())
-        unique_targets = sorted({t.strip() for targets in df['Target'].dropna() for t in targets.split(',')})
+        # Clean up target strings for filter options
+        def clean_target(t):
+            t = t.replace('대상.', '').replace('대상 .', '').replace('대상', '').strip()
+            return t
+        unique_targets = sorted({clean_target(t) for targets in df['Target'].dropna() for t in targets.split(',') if '해당자' not in t})
+        unique_targets = [t for t in unique_targets if t]  # Remove empty strings
         
         # Uncheck All logic for categories and targets
         if 'korea_uncheck_all' not in st.session_state:
@@ -79,13 +84,13 @@ def display_contests(contests):
             targets = [t.strip() for t in target_str.split(',')]
             return any(t in selected_targets for t in targets)
         if selected_categories and selected_targets:
-            filtered_df = df[df['Category'].isin(selected_categories) & df['Target'].apply(target_match)]
+            filtered_df = df[df['Category'].isin(selected_categories) & df['Target'].apply(target_match)].copy()
         elif selected_categories:
-            filtered_df = df[df['Category'].isin(selected_categories)]
+            filtered_df = df[df['Category'].isin(selected_categories)].copy()
         elif selected_targets:
-            filtered_df = df[df['Target'].apply(target_match)]
+            filtered_df = df[df['Target'].apply(target_match)].copy()
         else:
-            filtered_df = df
+            filtered_df = df.copy()
         
         # Display contest count
         st.subheader(f"Showing {len(filtered_df)} contests")
