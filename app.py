@@ -54,7 +54,7 @@ def load_json_with_timestamp(filename, timestamp_key):
         return []
 
 def save_json_with_timestamp(filename, data, timestamp_key):
-    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    ts = datetime.now().strftime("%Y-%m-%d")
     obj = {'last_scraped': ts, 'contests': data}
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=2)
@@ -76,7 +76,7 @@ def update_ics_competitions_json():
     except Exception as e:
         st.error(f"Exception while updating ICS competitions: {e}")
     # Save timestamp
-    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    ts = datetime.now().strftime("%Y-%m-%d")
     st.session_state[ICS_TIMESTAMP_KEY] = ts
     # Reload data
     st.session_state.ics_competitions = load_ics_competitions_from_json()
@@ -142,7 +142,7 @@ def main():
         if st.button("Refresh Contest Korea Contests"):
             update_korea_contests_json()
             st.session_state.contests_data = load_json_with_timestamp(KOREA_JSON, KOREA_TIMESTAMP_KEY)
-            st.experimental_rerun()
+            st.rerun()
     # Show last scrape time for Contest Korea
     if st.session_state[KOREA_TIMESTAMP_KEY]:
         st.caption(f"Contest Korea last scraped: {st.session_state[KOREA_TIMESTAMP_KEY]}")
@@ -154,7 +154,7 @@ def main():
         st.info("Automatically scraping Contest Korea for today's data...")
         update_korea_contests_json()
         st.session_state.contests_data = load_json_with_timestamp(KOREA_JSON, KOREA_TIMESTAMP_KEY)
-        st.experimental_rerun()
+        st.rerun()
 
     # Auto-update if date has changed for ICS (but do not block Korea display)
     check_and_auto_update(ICS_JSON, ICS_TIMESTAMP_KEY, update_ics_competitions_json, lambda: st.session_state.update({'ics_competitions': load_ics_competitions_from_json()}))

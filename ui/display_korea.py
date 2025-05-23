@@ -38,34 +38,52 @@ def display_contests(contests):
         
         # Get unique categories for filtering
         unique_categories = sorted(df['Category'].unique())
+        unique_targets = sorted({t.strip() for targets in df['Target'].dropna() for t in targets.split(',')})
         
-        # Uncheck All logic
+        # Uncheck All logic for categories and targets
         if 'korea_uncheck_all' not in st.session_state:
             st.session_state.korea_uncheck_all = False
-        uncheck_all = st.button("Uncheck All Categories", key="korea_uncheck_all_btn")
+        uncheck_all = st.button("Uncheck All Filters", key="korea_uncheck_all_btn")
         if uncheck_all:
             st.session_state.korea_uncheck_all = True
         else:
             st.session_state.korea_uncheck_all = False
         
-        # Use checkboxes for each category and an Apply button
-        st.subheader("Filter by Category")
-        with st.form(key="korea_category_filter_form"):
+        # Use checkboxes for each category and target, and an Apply button
+        st.subheader("Filter")
+        with st.form(key="korea_filter_form"):
             cat_states = {}
-            cols = st.columns(4)
+            target_states = {}
+            cat_cols = st.columns(4)
             for i, cat in enumerate(unique_categories):
-                col = cols[i % 4]
+                col = cat_cols[i % 4]
                 default_checked = not st.session_state.korea_uncheck_all if f"korea_cat_{cat}" not in st.session_state else st.session_state[f"korea_cat_{cat}"]
                 cat_states[cat] = col.checkbox(cat, value=default_checked, key=f"korea_cat_{cat}")
+            target_cols = st.columns(4)
+            for i, target in enumerate(unique_targets):
+                col = target_cols[i % 4]
+                default_checked = not st.session_state.korea_uncheck_all if f"korea_target_{target}" not in st.session_state else st.session_state[f"korea_target_{target}"]
+                target_states[target] = col.checkbox(target, value=default_checked, key=f"korea_target_{target}")
             apply_filters = st.form_submit_button("Apply Filters")
         # Only update filtered_df when Apply Filters is pressed or Uncheck All is pressed
         if 'korea_selected_categories' not in st.session_state or apply_filters or st.session_state.korea_uncheck_all:
             st.session_state.korea_selected_categories = [cat for cat, checked in cat_states.items() if checked]
+            st.session_state.korea_selected_targets = [target for target, checked in target_states.items() if checked]
         selected_categories = st.session_state.korea_selected_categories
+        selected_targets = st.session_state.korea_selected_targets
         
-        # Filter dataframe by selected categories
-        if selected_categories:
+        # Filter dataframe by selected categories AND selected targets
+        def target_match(target_str):
+            if pd.isna(target_str):
+                return False
+            targets = [t.strip() for t in target_str.split(',')]
+            return any(t in selected_targets for t in targets)
+        if selected_categories and selected_targets:
+            filtered_df = df[df['Category'].isin(selected_categories) & df['Target'].apply(target_match)]
+        elif selected_categories:
             filtered_df = df[df['Category'].isin(selected_categories)]
+        elif selected_targets:
+            filtered_df = df[df['Target'].apply(target_match)]
         else:
             filtered_df = df
         
