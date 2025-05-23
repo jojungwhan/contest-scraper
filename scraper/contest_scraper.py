@@ -99,7 +99,10 @@ def scrape_contests(max_pages=None):
                         
                     category = category_elem.text.strip()
                     title = title_elem.text.strip()
-                    link = "https://www.contestkorea.com" + title_link['href']
+                    href = title_link['href']
+                    if not href.startswith('/sub/'):
+                        href = '/sub/' + href.lstrip('/')
+                    link = "https://www.contestkorea.com" + href
                     
                     # Get host information
                     host_ul = item.find('ul', class_='host')

@@ -1,9 +1,50 @@
 import streamlit as st
 import pandas as pd
+import requests
+from bs4 import BeautifulSoup
 
 def generate_contest_summary(contest):
-    """Generate a summary of the contest details."""
-    summary = f"""
+    """Generate a summary of the contest details, including scraped detail page content if possible."""
+    detail_html = None
+    detail_url = contest.get('Link')
+    if detail_url:
+        try:
+            resp = requests.get(detail_url, timeout=10)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, 'lxml')
+            detail_area = soup.find('div', class_='view_detail_area')
+            if detail_area:
+                # Extract the main text content, preserving basic formatting
+                detail_html = detail_area.prettify()
+        except Exception as e:
+            detail_html = None
+    if detail_html:
+        # Display the scraped detail HTML using st.markdown
+        summary = f"""
+### {contest['Title']}
+
+**Category:** {contest['Category']}
+
+**Organization:** {contest['Organization']}
+
+**Target Participants:** {contest['Target']}
+
+**Deadline Information:**
+{contest['Date Info']}
+
+**Days Left:** {contest['D-Day']} days
+
+**Application Link:** {contest['Link']}
+
+---
+
+**Contest Details:**
+"""
+        # Instead of returning the HTML as part of the string, return a tuple (summary, detail_html)
+        return summary, detail_html
+    else:
+        # Fallback to original summary
+        summary = f"""
 ### {contest['Title']}
 
 **Category:** {contest['Category']}
@@ -24,7 +65,7 @@ def generate_contest_summary(contest):
 - Target: {contest['Target']}
 - Application Method: Online (via contestkorea.com)
 """
-    return summary
+        return summary, None
 
 def display_contests(contests):
     if contests:
@@ -99,13 +140,11 @@ def display_contests(contests):
         with st.form(key="contests_form"):
             # Add checkboxes to the dataframe
             filtered_df['Select'] = False
-            
             # Reorder columns
             column_order = ['Select', 'D-Day', 'Title', 'Category', 'Organization', 'Target', 'Date Info', 'Link']
             filtered_df = filtered_df[column_order]
-            
-            # Display the data with sortable columns
-            st.dataframe(
+            # Display the data with interactive checkboxes
+            edited_df = st.data_editor(
                 filtered_df,
                 column_config={
                     "Select": st.column_config.CheckboxColumn(
@@ -145,17 +184,21 @@ def display_contests(contests):
                 },
                 hide_index=True,
                 use_container_width=True,
+                key="korea_data_editor"
             )
-            
             # Add submit button
             submit_button = st.form_submit_button("View Selected Summary")
-            
             # Handle form submission
             if submit_button:
-                selected_rows = filtered_df[filtered_df['Select'] == True]
+                selected_rows = edited_df[edited_df['Select'] == True]
                 for _, row in selected_rows.iterrows():
-                    summary = generate_contest_summary(row)
+                    summary, detail_html = generate_contest_summary(row)
                     summary_container.markdown(summary)
+                    if detail_html:
+                        st.success("Contest detail page scraped successfully.")
+                        st.markdown(detail_html, unsafe_allow_html=True)
+                    else:
+                        st.warning("Could not scrape contest detail page. Showing basic info only.")
         
         # Add download button
         csv = filtered_df.to_csv(index=False)
