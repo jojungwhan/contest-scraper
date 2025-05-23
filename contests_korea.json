@@ -1,0 +1,2165 @@
+{
+  "last_scraped": "2025-05-23 14:28:52",
+  "contests": [
+    {
+      "Category": "네이밍•슬로건",
+      "Title": "2025년 제천시 인구정책 슬로건 공모",
+      "Organization": "주최 . 제천시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.23~05.29 | 심사: 06.02~06.30",
+      "D-Day": -6,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030210001&str_no=202505230034"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제40회 전국향토문화 공모전",
+      "Organization": "주최 . 문화체육관광부·한국문화원연합회",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.22~07.13 | 심사: 07.14~07.31",
+      "D-Day": -51,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505230004"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "브니엘예고 제25회 브니엘 전국 유·초·중학생 무용콩쿠르",
+      "Organization": "주최 . 브니엘예술고등학교",
+      "Target": "대상 . 유치원 , 초등학생 , 중학생",
+      "Date Info": "접수: 06.23~07.04 | 심사: 07.12 | 발표: 07.12",
+      "D-Day": -42,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505190063"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "제29회 국립창원대학교 춘계 전국 초·중·고등학생 무용경연대회",
+      "Organization": "주최 . 국립창원대학교",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생",
+      "Date Info": "접수: 05.26~06.11 | 심사: 06.14",
+      "D-Day": -19,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505190061"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "제7회 화성 전국 사진공모전",
+      "Organization": "주최 . (사)한국사진작가협회 화성지부",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 08.01~08.30 | 심사: 09.01~09.05 | 발표: 09.08",
+      "D-Day": -99,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505190056"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025 탄소중립분야 아이디어 국민공모",
+      "Organization": "주최 . 특허청",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.08~06.10 | 심사: 05.08~06.10",
+      "D-Day": -18,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505190036"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제55회 대한민국공예품대전 광주시 예선대회",
+      "Organization": "주최 . 광주디자인진흥원",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 06.02~06.05 | 심사: 06.06~06.11 | 발표: 06.12",
+      "D-Day": -13,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505180006"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "2025년 기후위기 적응 그림공모전",
+      "Organization": "주최 . 환경부, 한국환경연구원",
+      "Target": "대상 . 유치원 , 초등학생",
+      "Date Info": "접수: 05.19~07.31 | 심사: 08.01~10.30 | 발표: 10.31",
+      "D-Day": -69,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505180004"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제20회 통일로 미술대회",
+      "Organization": "주최 . 파주시 조리읍",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 일반인",
+      "Date Info": "접수: 05.19~06.14 | 심사: 06.14",
+      "D-Day": -22,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505170021"
+    },
+    {
+      "Category": "The 다양한 분야",
+      "Title": "김제시ㆍ군 통합 30주년 기념 「제5회 김제시 시민기록물 수집 공모전」",
+      "Organization": "주최 . 김제시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.12~08.29 | 심사: 09.01~09.29 | 발표: 09.30",
+      "D-Day": -98,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031810001&str_no=202505170018"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "학교폭력·청소년범죄 예방 웹툰·N행시포스터 공모전",
+      "Organization": "주최 . 천안동남경찰서",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 해당자 ▶",
+      "Date Info": "접수: 05.01~05.30 | 심사: 06.02~06.20 | 발표: 06.20",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505170016"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제24회 청소년 백일장 공모 요강",
+      "Organization": "주최 . 광양문인협회 광양지부",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생",
+      "Date Info": "접수: 05.01~05.30 | 심사: 05.30~06.19 | 발표: 06.20",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505220080"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제 3회 이균영 백일장",
+      "Organization": "주최 . 광양문인협회 광양지부",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생",
+      "Date Info": "접수: 05.22~06.11 | 심사: 06.12~07.03 | 발표: 07.04",
+      "D-Day": -19,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505220078"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "멈추지 않는 커리어, 60초 영상 공모전",
+      "Organization": "주최 . 서울광역여성새로일하기센터",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.07~06.30 | 심사: 07.01~08.28 | 발표: 08.29",
+      "D-Day": -38,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505170007"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "제이코 영상 공모전",
+      "Organization": "주최 . (주)제이비피코리아",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.16~06.15 | 심사: 06.16~06.27 | 발표: 06.30",
+      "D-Day": -23,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505170006"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제 3회 이균영 백일장",
+      "Organization": "주최 . 한국문인협회 광양지부",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생",
+      "Date Info": "접수: 05.15~06.12 | 심사: 06.12 | 발표: 07.04",
+      "D-Day": -20,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505170004"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제 4회 한국학교사서협회와 함께하는 2025년 전국 어린이 독후감대회",
+      "Organization": "주최 . 한국어린이출판연합",
+      "Target": "대상 . 초등학생 , 해당자 ▶",
+      "Date Info": "접수: 05.01~08.31 | 심사: 05.01~08.31 | 발표: 09.30",
+      "D-Day": -100,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505160066"
+    },
+    {
+      "Category": "학문•과학•IT",
+      "Title": "2025 제주삼다수 청소년 글로벌리더 경진대회 참가자 모집",
+      "Organization": "주최 . (재)제주삼다수재단, (재)제주평생교육장학진흥원",
+      "Target": "대상 . 고등학생 , 해당자 ▶",
+      "Date Info": "접수: 05.15~05.30 | 심사: 06.14 | 발표: 06.05",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030310001&str_no=202505160057"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "2025 울산 U잼 영상공모전",
+      "Organization": "주최 . 울산광역시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 10.01~10.17 | 심사: 11.01~11.20 | 발표: 11.24",
+      "D-Day": -147,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505220071"
+    },
+    {
+      "Category": "요리•뷰티•배우•오디션",
+      "Title": "[중구요리사] 부산 1부두 문전성시 페스타 요리 대회",
+      "Organization": "주최 . 부산광역시 중구청",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.21~06.04 | 심사: 05.21~06.04",
+      "D-Day": -12,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031610001&str_no=202505220061"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "제6회 군산숏필름페스타(구,개복단편영화제)",
+      "Organization": "주최 . 군산시민예술촌,호원대학교산학협력단,군산시",
+      "Target": "대상 . 초등학생 , 중학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.15~08.30 | 심사: 08.31~09.06",
+      "D-Day": -99,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505220011"
+    },
+    {
+      "Category": "네이밍•슬로건",
+      "Title": "행주한우 캐릭터 네이밍 공모전",
+      "Organization": "주최 . 고양축산농협",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.19~06.08 | 심사: 05.19~06.08 | 발표: 06.20",
+      "D-Day": -16,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030210001&str_no=202505210072"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "신한은행과 함께 하는 취업 포트폴리오 대회",
+      "Organization": "주최 . 신한금융희망재단, 신한은행",
+      "Target": "대상 . 고등학생 , 해당자 ▶",
+      "Date Info": "접수: 05.09~07.11 | 심사: 07.12~08.08",
+      "D-Day": -49,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505220046"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "제4회 안동여행기념품 공모전",
+      "Organization": "주최 . 문화체육관광부 / 경상북도 / 안동시 / 한국정신문화재단",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 06.23~06.27 | 심사: 06.23~06.27",
+      "D-Day": -35,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505220041"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제22회 단오절 한마당 어린이 미술대회",
+      "Organization": "주최 . 울산광역시남구문화원",
+      "Target": "대상 . 유치원 , 초등학생",
+      "Date Info": "접수: 05.16~05.28 | 심사: 05.29~06.06 | 발표: 06.09",
+      "D-Day": -5,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505220039"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제6회 기상청 달콤기후 공모전",
+      "Organization": "주최 . 기상청",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 04.23~06.13 | 심사: 06.14~07.22",
+      "D-Day": -21,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505220036"
+    },
+    {
+      "Category": "네이밍•슬로건",
+      "Title": "(가칭)전주 서부권 복합복지관 명칭 공모",
+      "Organization": "주최 . 전주시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.19~05.30 | 심사: 06.02~08.28 | 발표: 08.29",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030210001&str_no=202505220018"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "제33회 안양시 청소년 종합예술제",
+      "Organization": "주최 . 안양시",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 해당자 ▶",
+      "Date Info": "접수: 05.07~05.26 | 심사: 06.14 | 발표: 06.14",
+      "D-Day": -3,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505160033"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "제9회 목담 최승희 전국국악경연대회",
+      "Organization": "주최 . (사)정정렬제 최승희 판소리보존회",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 일반인",
+      "Date Info": "접수: 05.16~06.11 | 심사: 06.14~06.15",
+      "D-Day": -19,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505160023"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025 당진시 업사이클링 아이디어 공모전",
+      "Organization": "주최 . 당진시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.12~06.20 | 심사: 06.23~06.30 | 발표: 07.01",
+      "D-Day": -28,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505160015"
+    },
+    {
+      "Category": "학문•과학•IT",
+      "Title": "제9회 개방형 클라우드 플랫폼(K-PaaS) 활용 공모전",
+      "Organization": "주최 . 과학기술정보통신부",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 03.24~10.31 | 심사: 11.05~11.06 | 발표: 11.19",
+      "D-Day": -161,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030310001&str_no=202505210074"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "아동·청소년 불법도박문제 예방 및 근절을 위한 빼도박클라쓰 공모전",
+      "Organization": "주최 . 굿네이버스",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생",
+      "Date Info": "접수: 05.12~10.31 | 심사: 11.01~11.07",
+      "D-Day": -161,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505210069"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "2025 음성 품바 래퍼 경연대회",
+      "Organization": "주최 . 음성군축제추진위원회, 음성예총",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.07~05.26 | 심사: 06.13 | 발표: 05.30",
+      "D-Day": -3,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505160073"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제53회 독후감상문대회",
+      "Organization": "주최 . 대구2·28기념학생도서관",
+      "Target": "대상 . 초등학생 , 중학생 , 해당자 ▶",
+      "Date Info": "접수: 05.09~06.05 | 심사: 05.09~06.05 | 발표: 06.26",
+      "D-Day": -13,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505150109"
+    },
+    {
+      "Category": "네이밍•슬로건",
+      "Title": "충무공 탄생지 중구 도시브랜드 네이밍 공모전",
+      "Organization": "주최 . 서울특별시 중구",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.21~06.15 | 심사: 05.21~06.15 | 발표: 09.20",
+      "D-Day": -23,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030210001&str_no=202505210071"
+    },
+    {
+      "Category": "네이밍•슬로건",
+      "Title": "다문화주간맞이 슬로건 공모 \"가족의 재발견\"",
+      "Organization": "주최 . 거제시가족센터",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.16~06.03 | 심사: 05.16~06.03 | 발표: 06.05",
+      "D-Day": -11,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030210001&str_no=202505210070"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "한국현대춤협회 6Th C-DAK International Dance Competition",
+      "Organization": "주최 . 한국현대춤협회",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 일반인",
+      "Date Info": "접수: 06.02~06.22 | 심사: 06.29",
+      "D-Day": -30,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505200019"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025 트래블 이노베이션 아이디어 공모전",
+      "Organization": "주최 . 야놀자리서치, 놀유니버스",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 06.30~07.11 | 심사: 07.11~07.17 | 발표: 07.24",
+      "D-Day": -49,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505210063"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025 해양수산창업콘테스트",
+      "Organization": "주최 . 해양수산부",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.20~06.30 | 심사: 07.01~09.30",
+      "D-Day": -38,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505210059"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제22회 노근리 인권·평화 백일장",
+      "Organization": "주최 . (사)노근리국제평화재단",
+      "Target": "대상 . 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인",
+      "Date Info": "접수: 06.02~08.31 | 심사: 09.01~10.01",
+      "D-Day": -100,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505210058"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "2025년 제3회 김소엽전국시낭송대회",
+      "Organization": "주최 . SM문학그룹샘문, MH한용운문학",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.15~07.31 | 심사: 07.31~08.15 | 발표: 09.06",
+      "D-Day": -69,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505210036"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025 장애인인권프레젠테이션대회",
+      "Organization": "주최 . 강원특별자치도장애인종합복지관, 강원도민일보",
+      "Target": "대상 . 중학생 , 고등학생 , 대학생 , 해당자 ▶",
+      "Date Info": "접수: 05.21~06.02 | 심사: 06.04~06.11 | 발표: 06.12",
+      "D-Day": -10,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505210047"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "예작음악콩쿠르 고양지사 (6월7일 고양시 여성회관)",
+      "Organization": "주최 . 예작음악사",
+      "Target": "대상 . 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인",
+      "Date Info": "접수: 05.21~05.31 | 심사: 06.07 | 발표: 06.07",
+      "D-Day": -8,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505210024"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "예작음악콩쿠르 인천지사 (6월7일 인천 여성의 광장)",
+      "Organization": "주최 . 예작음악사",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.21~05.31 | 심사: 06.07",
+      "D-Day": -8,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505210018"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "제38회 학생음협콩쿠르",
+      "Organization": "주최 . (사)한국음악협회",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생",
+      "Date Info": "접수: 06.16~07.07 | 심사: 07.30~08.14",
+      "D-Day": -45,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505210002"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025년 연수구시설안전관리공단 ESG 혁신 아이디어 공모전",
+      "Organization": "주최 . 연수구시설안전관리공단",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.19~06.20 | 심사: 06.23~07.17 | 발표: 07.18",
+      "D-Day": -28,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505200090"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "2025 피싱범죄 예방 콘텐츠 공모전",
+      "Organization": "주최 . 광주경찰청,광주자치경찰위원회,한국인터넷진흥원",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.19~07.31 | 심사: 08.01~08.28 | 발표: 08.29",
+      "D-Day": -69,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505190028"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025년 횡성군 규제개선 아이디어 공모전",
+      "Organization": "주최 . 횡성군",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.01~06.02 | 심사: 06.09~07.31",
+      "D-Day": -10,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505020056"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "2025 제1회 월광주조 패키지 디자인 공모전",
+      "Organization": "주최 . 월광주조",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.15~05.26 | 심사: 05.27~06.06 | 발표: 06.09",
+      "D-Day": -3,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505150025"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "울산북구정신건강복지센터 정신건강인식개선 숏폼영상 공모전",
+      "Organization": "주최 . 울산북구정신건강복지센터",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.12~08.31 | 심사: 09.01~10.30 | 발표: 10.31",
+      "D-Day": -100,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505150023"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "제 1회 명지전문대학 숏츠(숏폼) 공모전",
+      "Organization": "주최 . 명지전문대학 조기취업형계약학과 디지털콘텐츠융합과",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.19~05.30 | 심사: 05.31~06.12 | 발표: 06.13",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505190073"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제24회 청소년 백일장",
+      "Organization": "주최 . 광양문인협회",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 해당자 ▶",
+      "Date Info": "접수: 05.01~05.30 | 심사: 06.02~06.19 | 발표: 06.20",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505150021"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "(사)한국발레협회 제4회 한국발레협회 콩쿠르",
+      "Organization": "주최 . (사)한국발레협회",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 일반인",
+      "Date Info": "접수: 05.19~06.18 | 심사: 06.28",
+      "D-Day": -26,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505150045"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "제1회 해운대「포토 스팟 발굴」공모전",
+      "Organization": "주최 . 부산광역시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 07.14~07.31 | 심사: 08.01~09.29 | 발표: 09.30",
+      "D-Day": -69,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505150042"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "제8회 보령사계(四季) 전국사진 공모전",
+      "Organization": "주최 . 보령시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 08.01~09.17 | 심사: 09.18~09.23 | 발표: 09.24",
+      "D-Day": -117,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505150038"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "제37회 김해전국사진공모전",
+      "Organization": "주최 . (사)한국사진작가협회 김해지부",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.15~06.27 | 심사: 05.15~06.27 | 발표: 06.30",
+      "D-Day": -35,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505150037"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제31회 전국청소년백일장",
+      "Organization": "주최 . 한국작가회의",
+      "Target": "대상 . 고등학생 , 해당자 ▶",
+      "Date Info": "접수: 05.14~06.05 | 심사: 06.28",
+      "D-Day": -13,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505150032"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "경찰청xBGF 실종정책 홍보 콘텐츠 공모전",
+      "Organization": "주최 . 경찰청, BGF",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.19~06.19 | 심사: 06.20~06.27 | 발표: 06.30",
+      "D-Day": -27,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505150019"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "전북대학교 주최 제25회 가람이병기청년시문학상․최명희청년소설 문학상",
+      "Organization": "주최 . 전북대학교신문방송사",
+      "Target": "대상 . 고등학생 , 대학생",
+      "Date Info": "접수: 08.11~08.31 | 심사: 09.01~09.29 | 발표: 09.30",
+      "D-Day": -100,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505200083"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "2025년 아토피·천식 그림 공모전",
+      "Organization": "주최 . 대전광역시",
+      "Target": "대상 . 유치원 , 초등학생 , 중학생 , 고등학생 , 해당자 ▶",
+      "Date Info": "접수: 06.02~09.15 | 심사: 09.16~10.17 | 발표: 10.31",
+      "D-Day": -115,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505200085"
+    },
+    {
+      "Category": "학문•과학•IT",
+      "Title": "2025 데이터 크리에이터 캠프",
+      "Organization": "주최 . 과학기술정보통신부",
+      "Target": "대상 . 고등학생 , 대학생",
+      "Date Info": "접수: 06.27~07.21 | 심사: 08.13~11.29",
+      "D-Day": -59,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030310001&str_no=202505200082"
+    },
+    {
+      "Category": "네이밍•슬로건",
+      "Title": "2035 안산시 미래 비전 슬로건 공모전",
+      "Organization": "주최 . 안산시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.14~05.27 | 심사: 05.28~06.04 | 발표: 06.05",
+      "D-Day": -4,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030210001&str_no=202505150029"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "2025년 부산 반려동물 사진 공모전",
+      "Organization": "주최 . 부산광역시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.16~05.23 | 심사: 05.26~05.27 | 발표: 05.28",
+      "D-Day": 0,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505150049"
+    },
+    {
+      "Category": "학문•과학•IT",
+      "Title": "2025년도 강원권 중고교 해킹교육 & CTF대회",
+      "Organization": "주최 . 강원대학교, 강원특별자치도, 한국인터넷진흥원",
+      "Target": "대상 . 중학생 , 고등학생 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.13~06.15 | 심사: 06.16~06.20 | 발표: 06.20",
+      "D-Day": -23,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030310001&str_no=202505200076"
+    },
+    {
+      "Category": "학문•과학•IT",
+      "Title": "국제 e-모빌리티 엑스포 제 1회 청소년 국제 학술 컨퍼런스 대회",
+      "Organization": "주최 . 국제e-모빌리티엑스포조직위원회",
+      "Target": "대상 . 중학생 , 고등학생 , 외국인",
+      "Date Info": "접수: 05.17~06.08 | 심사: 06.08~06.11 | 발표: 06.11",
+      "D-Day": -16,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030310001&str_no=202505200073"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025년 파주시 청소년 정책 아이디어 공모전 (아이디어부문)",
+      "Organization": "주최 . 파주시",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 해당자 ▶",
+      "Date Info": "접수: 05.01~06.14 | 심사: 06.18~06.21 | 발표: 06.26",
+      "D-Day": -22,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505020052"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025년 파주시 청소년 정책 아이디어 공모전 (정책부문)",
+      "Organization": "주최 . 파주시",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 해당자 ▶",
+      "Date Info": "접수: 05.01~05.24 | 심사: 05.28~05.31 | 발표: 06.05",
+      "D-Day": -1,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505020051"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2026여수세계섬박람회 기타수익사업 아이디어 공모(연장)",
+      "Organization": "주최 . (재)2026여수세계섬박람회조직위원회",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.19~06.09 | 심사: 06.10~07.30 | 발표: 07.31",
+      "D-Day": -17,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505190096"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "진안 돌깨비와 함께하는 돌탑쌓기 전국대회",
+      "Organization": "주최 . 진안군 관광과",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.20~06.16 | 심사: 06.21~06.22 | 발표: 06.22",
+      "D-Day": -24,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505200010"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제11회 가천 그림그리기 대회",
+      "Organization": "주최 . 가천길재단",
+      "Target": "대상 . 유치원 , 초등학생 , 중학생 , 고등학생",
+      "Date Info": "접수: 05.14~06.11 | 심사: 06.14",
+      "D-Day": -19,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505140095"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "서울 지하철 음악 댄스 챌린지",
+      "Organization": "주최 . 서울교통공사",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.01~05.31 | 심사: 06.02~06.19 | 발표: 06.20",
+      "D-Day": -8,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505200058"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제33회 하나은행 자연사랑 어린이 미술대회",
+      "Organization": "주최 . 하나은행",
+      "Target": "대상 . 유치원 , 초등학생",
+      "Date Info": "접수: 05.02~08.22 | 심사: 08.28~09.03 | 발표: 09.05",
+      "D-Day": -91,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505200048"
+    },
+    {
+      "Category": "네이밍•슬로건",
+      "Title": "<2025 한복문화주간> 대국민 슬로건 공모",
+      "Organization": "주최 . 문화체육관광부",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.19~06.15 | 심사: 06.16~06.30 | 발표: 07.04",
+      "D-Day": -23,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030210001&str_no=202505200051"
+    },
+    {
+      "Category": "The 다양한 분야",
+      "Title": "제5회 익산시 민간기록물 수집 공모전 '익산군이 이리양을 만났을 때'",
+      "Organization": "주최 . 익산시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.01~07.14 | 심사: 07.15~08.14",
+      "D-Day": -52,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031810001&str_no=202504300076"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "양산시 2026년도 예산편성을 위한 주민참여예산 제안사업 공모",
+      "Organization": "주최 . 양산시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 04.14~06.30 | 심사: 04.14~06.30",
+      "D-Day": -38,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505010039"
+    },
+    {
+      "Category": "네이밍•슬로건",
+      "Title": "제3연륙교 명칭 공모",
+      "Organization": "주최 . 인천광역시 경제자유구역청",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.21~06.03 | 심사: 06.04~06.30",
+      "D-Day": -11,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030210001&str_no=202505190043"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제21회 대한민국청소년미술대전",
+      "Organization": "주최 . 사단법인 한국청소년미술협회",
+      "Target": "대상 . 유치원 , 초등학생 , 중학생 , 고등학생 , 해당자 ▶",
+      "Date Info": "접수: 06.02~06.14 | 심사: 06.15~06.30 | 발표: 07.01",
+      "D-Day": -22,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505200025"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "2025년 제1회 로마네 펜슬파우치 디자인 공모전",
+      "Organization": "주최 . (주)로마네",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.15~06.13 | 심사: 06.16~06.30 | 발표: 06.30",
+      "D-Day": -21,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505200014"
+    },
+    {
+      "Category": "학문•과학•IT",
+      "Title": "제6회 AI·ICT 장애인 보조공학기기 공모전 공고",
+      "Organization": "주최 . 고용노동부",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.19~06.18 | 심사: 06.23~07.04",
+      "D-Day": -26,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030310001&str_no=202505200008"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "희망봉광장 CAPE OF GOOD HOPE 제57회 신인문학작품상 공모",
+      "Organization": "주최 . 문학상운영위원회",
+      "Target": "대상 . 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인",
+      "Date Info": "접수: 05.16~07.15 | 심사: 07.16~07.19 | 발표: 07.20",
+      "D-Day": -53,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505200012"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "제주 인구정책 몬딱 공모전",
+      "Organization": "주최 . 제주특별자치도",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.14~06.13 | 심사: 06.16~07.02 | 발표: 07.03",
+      "D-Day": -21,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505140054"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제 15회 신무군산문학상",
+      "Organization": "주최 . 동우문화재단 / (사)한국문인협회군산지부",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.01~08.31 | 심사: 05.01~08.31 | 발표: 09.20",
+      "D-Day": -100,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202504220072"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "2025년 제23회 5·18전국휘호대회",
+      "Organization": "주최 . 518민주화운동부상자회,국가보훈부광주지방보훈청",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 일반인",
+      "Date Info": "접수: 05.26~05.30 | 심사: 06.14 | 발표: 06.17",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505140042"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "독립문예지 베개 10호 원고 공모",
+      "Organization": "주최 . 독립문예지 베개",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.15~06.30 | 심사: 07.01~07.30 | 발표: 07.31",
+      "D-Day": -38,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505140040"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "[2025 대한민국 펫캉스] 숏폼 영상 공모전",
+      "Organization": "주최 . (사)마이스진흥재단",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.14~06.30 | 심사: 05.14~07.03 | 발표: 07.04",
+      "D-Day": -38,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505190100"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제9회 대한민국 국가상징 디자인 공모전",
+      "Organization": "주최 . 행정안전부",
+      "Target": "대상 . 고등학생 , 대학생 , 일반인",
+      "Date Info": "접수: 06.02~06.30 | 심사: 06.02~06.30",
+      "D-Day": -38,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505190098"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제5회 금연·절주 공감문화제 공모전",
+      "Organization": "주최 . 상주시보건소",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 해당자 ▶",
+      "Date Info": "접수: 05.07~05.28 | 심사: 05.29~06.20 | 발표: 06.30",
+      "D-Day": -5,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202504290018"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "제2회 무사이 콩쿠르",
+      "Organization": "주최 . 엠매니지먼트",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.19~06.10 | 심사: 06.11~06.13 | 발표: 06.13",
+      "D-Day": -18,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505190090"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "2025년 제2회 위험물 안전관리 우수사례 경진대회",
+      "Organization": "주최 . 소방청",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.12~08.01 | 심사: 05.12~08.01",
+      "D-Day": -70,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505130099"
+    },
+    {
+      "Category": "네이밍•슬로건",
+      "Title": "2025 인피니티 문화공간 네이밍 공모전",
+      "Organization": "주최 . 인피니티",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.07~06.15 | 심사: 06.16~06.27 | 발표: 06.30",
+      "D-Day": -23,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030210001&str_no=202505090024"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "K-숏폼드라마 극본 공모전",
+      "Organization": "주최 . 크레용콘텐츠",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.19~06.20 | 심사: 06.23~06.30 | 발표: 06.30",
+      "D-Day": -28,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505190080"
+    },
+    {
+      "Category": "학문•과학•IT",
+      "Title": "기록의 재발견, 경남교육 보물찾기 『경남교육 기네스 공모전』",
+      "Organization": "주최 . 경상남도교육청",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.19~06.20 | 심사: 06.23~07.31 | 발표: 07.31",
+      "D-Day": -28,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030310001&str_no=202505190050"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제55회 대한민국 공예품 대전 부산예선",
+      "Organization": "주최 . 부산광역시공예협동조합",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 06.25~07.02 | 심사: 07.03~07.08 | 발표: 07.09",
+      "D-Day": -40,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505140033"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025년 춘천시 생성형 AI 아이디어 경진대회",
+      "Organization": "주최 . 춘천시, (주)웨슬리퀘스트",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.12~05.30 | 심사: 06.02~06.20",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505190049"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제6회 국민 암예방수칙 포스터 공모전",
+      "Organization": "주최 . 광주전남지역암센터",
+      "Target": "대상 . 초등학생 , 해당자 ▶",
+      "Date Info": "접수: 05.01~05.30 | 심사: 06.02~06.27 | 발표: 06.30",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505190048"
+    },
+    {
+      "Category": "네이밍•슬로건",
+      "Title": "희귀질환 인식제고 슬로건 캐릭터 공모전",
+      "Organization": "주최 . 질병관리청",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.19~06.22 | 심사: 05.19~06.22 | 발표: 07.14",
+      "D-Day": -30,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030210001&str_no=202505190032"
+    },
+    {
+      "Category": "네이밍•슬로건",
+      "Title": "월랑마을 새로운 공간의 이름을 지어주세요.",
+      "Organization": "주최 . 월랑마을 마을회",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.08~05.23 | 심사: 05.26~06.19 | 발표: 06.20",
+      "D-Day": 0,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030210001&str_no=202505190031"
+    },
+    {
+      "Category": "네이밍•슬로건",
+      "Title": "서울미래아이 역량(12개), 아이들의 시선으로 이름 짓기 공모전",
+      "Organization": "주최 . 서울시여성가족재단",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.13~05.25 | 심사: 05.26~05.30 | 발표: 06.02",
+      "D-Day": -2,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030210001&str_no=202505140066"
+    },
+    {
+      "Category": "네이밍•슬로건",
+      "Title": "2025년 제2회 신구대학교 마케팅학과 슬로건 공모전",
+      "Organization": "주최 . 신구대학교",
+      "Target": "대상 . 고등학생",
+      "Date Info": "접수: 05.12~06.13 | 심사: 06.16~06.20 | 발표: 06.23",
+      "D-Day": -21,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030210001&str_no=202505140038"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "2025년 한국영재클래식피아노콩쿠르 (6월)",
+      "Organization": "주최 . 한국예능교육사",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.19~06.13 | 심사: 05.19~06.13",
+      "D-Day": -21,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505190006"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "2025년 감탄생활체 손글씨 공모전",
+      "Organization": "주최 . 보건복지부",
+      "Target": "대상 . 유치원 , 초등학생 , 일반인",
+      "Date Info": "접수: 04.25~05.25 | 심사: 04.01~05.31",
+      "D-Day": -2,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505190004"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "이야기모바일 제3회 영상 공모전",
+      "Organization": "주최 . 이야기모바일",
+      "Target": "대상 . 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인",
+      "Date Info": "접수: 05.19~06.30 | 심사: 07.01~07.31",
+      "D-Day": -38,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505190002"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "2025 전주비전대학교 포토존 사진 공모전",
+      "Organization": "주최 . 전주비전대학교",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 04.30~05.30 | 심사: 05.31~06.19 | 발표: 06.20",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505190012"
+    },
+    {
+      "Category": "요리•뷰티•배우•오디션",
+      "Title": "The열정 뮤지컬 동아리 40기 배우 모집",
+      "Organization": "주최 . 행복을 찾은 사람들",
+      "Target": "대상 . 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.14~06.05 | 심사: 06.14~11.30 | 발표: 06.09",
+      "D-Day": -13,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031610001&str_no=202505160072"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "제1회 아담국제영화제 작품공모",
+      "Organization": "주최 . (주)스타아티스트",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 06.01~09.30 | 심사: 10.01~10.31 | 발표: 11.03",
+      "D-Day": -130,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505190010"
+    },
+    {
+      "Category": "네이밍•슬로건",
+      "Title": "2025년 광양시 출생장려 표어 공모전",
+      "Organization": "주최 . 광양시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.19~06.01 | 심사: 06.02~06.16 | 발표: 06.17",
+      "D-Day": -9,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030210001&str_no=202505150081"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제 2회 빵꾸똥꾸 문구야 어린이 그림 그리기 대회",
+      "Organization": "주최 . 빵꾸똥꾸 문구야",
+      "Target": "대상 . 유치원 , 초등학생",
+      "Date Info": "접수: 05.12~06.13 | 심사: 06.16~06.17 | 발표: 06.17",
+      "D-Day": -21,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505110003"
+    },
+    {
+      "Category": "학문•과학•IT",
+      "Title": "2025 하계 청소년 IT학술대회",
+      "Organization": "주최 . 한국정보기술진흥원",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생",
+      "Date Info": "접수: 05.05~07.11 | 심사: 05.05~07.24 | 발표: 07.25",
+      "D-Day": -49,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030310001&str_no=202505060002"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "TISDC 타이완 국제 학생디자인 경연대회",
+      "Organization": "주최 . 교육부고등교육사",
+      "Target": "대상 . 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.12~07.07 | 심사: 07.08~08.15 | 발표: 09.10",
+      "D-Day": -45,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202503100086"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "생활 속 목재이용 국민참여 공모전 ‘똑똑! 한목 교구’",
+      "Organization": "주최 . 목재문화진흥회",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 06.13~06.27 | 심사: 06.13~06.27",
+      "D-Day": -35,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505190005"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "교육과정 소개영상 공모전",
+      "Organization": "주최 . 스타트업코드",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.09~06.10 | 심사: 05.09~06.10",
+      "D-Day": -18,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505180003"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "민주노총 조합원 최저임금 글 공모전 : 최저임금으로 다시 쓰는 나의 이야기",
+      "Organization": "주최 . 민주노총 조합원",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.12~06.06 | 심사: 05.12~06.06",
+      "D-Day": -14,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505130084"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025 생성형 AI 활용 관광 프롬프톤",
+      "Organization": "주최 . 한국관광공사",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.13~06.04 | 심사: 06.05~07.26 | 발표: 07.26",
+      "D-Day": -12,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505130082"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2026년 예산편성을 위한 서대문구 주민참여예산 제안사업 공모",
+      "Organization": "주최 . 서대문구",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.01~06.30 | 심사: 05.01~06.30",
+      "D-Day": -38,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505130081"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "2025 강원 하이(hi) 하이(hi) 인성교육 영상 공모전",
+      "Organization": "주최 . 강원특별자치도교육청",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 해당자 ▶",
+      "Date Info": "접수: 05.12~06.13 | 심사: 06.16~07.30 | 발표: 07.31",
+      "D-Day": -21,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505130053"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "제3회 신석정 창작음악제",
+      "Organization": "주최 . 부안군문화재단",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.12~08.04 | 심사: 08.05~09.29 | 발표: 09.30",
+      "D-Day": -73,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505130052"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "속초시 주민참여예산 사업공모",
+      "Organization": "주최 . 속초시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.12~08.15 | 심사: 05.12~08.15",
+      "D-Day": -84,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505130050"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "제주 아시아 퍼시픽 국제 무용 콩쿠르",
+      "Organization": "주최 . 제주국제무용제 조직위원회, K-글로벌발레원",
+      "Target": "대상 . 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 일반인",
+      "Date Info": "접수: 05.14~07.12 | 심사: 07.23~07.27 | 발표: 07.27",
+      "D-Day": -50,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505130044"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "2026 선 아트홀 영재 리사이틀 오디션 공고",
+      "Organization": "주최 . 엠매니지먼트",
+      "Target": "대상 . 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생",
+      "Date Info": "접수: 05.17~06.01 | 심사: 06.04",
+      "D-Day": -9,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505170022"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제29회 실크 텍스타일 디자인 공모전",
+      "Organization": "주최 . 진주시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 06.23~07.04 | 심사: 07.07~07.24 | 발표: 07.25",
+      "D-Day": -42,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505130020"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "2025 제19회 우리동요콩쿠르",
+      "Organization": "주최 . 한국동요작곡가협회",
+      "Target": "대상 . 유치원 , 초등학생",
+      "Date Info": "접수: 05.19~06.06 | 심사: 06.21~07.19",
+      "D-Day": -14,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505120105"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025년 강원 창업 탄탄대로 아이디어 경진대회",
+      "Organization": "주최 . 강원대학교 KNU창업혁신원, (재)원주의료기기테크노밸리",
+      "Target": "대상 . 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.12~06.09 | 심사: 05.12~06.13 | 발표: 06.23",
+      "D-Day": -17,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505130095"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "6월 민주항쟁 38주년 기념 제7회 유월청소년창작가요제",
+      "Organization": "주최 . 6월행쟁정신계승경남사업회",
+      "Target": "대상 . 중학생 , 고등학생",
+      "Date Info": "접수: 03.25~05.22 | 심사: 05.23 | 발표: 05.23",
+      "D-Day": 0,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505140069"
+    },
+    {
+      "Category": "The 다양한 분야",
+      "Title": "[국립수산물품질관리원] 수행서약 캠페인",
+      "Organization": "주최 . 국립수산물품질관리원",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.08~10.31 | 심사: 05.08~10.31",
+      "D-Day": -161,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031810001&str_no=202505150002"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025년 외교 공공데이터 활용 경진대회",
+      "Organization": "주최 . 외교부",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.19~07.14 | 심사: 07.15~08.29",
+      "D-Day": -52,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505160055"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "2025 제1회 강화군 영상 공모전",
+      "Organization": "주최 . 강화군청",
+      "Target": "대상 . 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인",
+      "Date Info": "접수: 05.19~06.23 | 심사: 06.24~07.31",
+      "D-Day": -31,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505160047"
+    },
+    {
+      "Category": "학문•과학•IT",
+      "Title": "2025년 충북혁신도시 공공데이터 분석·활용 아이디어 공모전",
+      "Organization": "주최 . 한국소비자원, 한국고용정보원, 한국가스안전공사",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.16~06.30 | 심사: 07.08~07.31 | 발표: 07.31",
+      "D-Day": -38,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030310001&str_no=202505160052"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "[푸르메재단] 2025 코스콤 장애인 IT 창업아이템 공모전",
+      "Organization": "주최 . 푸르메재단",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 04.17~05.30 | 심사: 06.02~06.13",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505160003"
+    },
+    {
+      "Category": "학문•과학•IT",
+      "Title": "2025 세종영어글쓰기대회",
+      "Organization": "주최 . (주)먼데이타임스",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생",
+      "Date Info": "접수: 04.30~06.12 | 심사: 06.14~06.18 | 발표: 06.18",
+      "D-Day": -20,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030310001&str_no=202505160037"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "함께 부르자고! 탄소중립 캠페인송 챌린지",
+      "Organization": "주최 . 환경부",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 04.25~06.30 | 심사: 07.01~07.14 | 발표: 07.15",
+      "D-Day": -38,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505150024"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "2025 서귀포 비경 영상 공모전",
+      "Organization": "주최 . 서귀포시관광협의회",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.15~07.31 | 심사: 08.01~08.28 | 발표: 08.29",
+      "D-Day": -69,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505120045"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "2025년 '예술가.. 우리 꿈꿔요~' 미래의 아티스트展 - 전국 청소년 미술 전시 공모",
+      "Organization": "주최 . 잇다스페이스, 배다리 잇다스페이스 작은미술관",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생",
+      "Date Info": "접수: 05.22~05.23 | 심사: 05.26~05.27 | 발표: 05.28",
+      "D-Day": 0,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505120044"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "싸이드워크엔터테인먼트 STEPIN 랜덤플레이댄스 배틀",
+      "Organization": "주최 . (주)싸이드워크엔터테인먼트",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.12~05.29 | 심사: 05.12~05.29",
+      "D-Day": -6,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505120041"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025년 국민참여 예산절감 아이디어 공모전",
+      "Organization": "주최 . 소상공인시장진흥공단",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.12~05.30 | 심사: 06.02~06.27 | 발표: 06.30",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505120040"
+    },
+    {
+      "Category": "네이밍•슬로건",
+      "Title": "재단법인 부산문화회관 명칭 변경",
+      "Organization": "주최 . 부산문화회관",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.12~06.10 | 심사: 06.11~08.28 | 발표: 08.29",
+      "D-Day": -18,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030210001&str_no=202505120037"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "2025년 제12회 명주인형극제 포스터 공모전 '나는야! 어린이 디자이너!'",
+      "Organization": "주최 . 강릉문화원",
+      "Target": "대상 . 유치원 , 초등학생 , 해당자 ▶",
+      "Date Info": "접수: 05.12~06.05 | 심사: 06.06~06.19 | 발표: 06.20",
+      "D-Day": -13,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505120036"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "제16회 장수논개 전국판소리경연대회",
+      "Organization": "주최 . 장수군, 사단법인 금당 유영애 소리보존회",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 일반인",
+      "Date Info": "접수: 06.04~06.25 | 심사: 06.27~06.29 | 발표: 06.29",
+      "D-Day": -33,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505120028"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "2025년 제9회 전국 수리 디자인·미술 공모전",
+      "Organization": "주최 . 군포시",
+      "Target": "대상 . 유치원 , 초등학생 , 중학생 , 고등학생",
+      "Date Info": "접수: 07.14~08.22 | 심사: 08.25~09.12 | 발표: 09.15",
+      "D-Day": -91,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505160035"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "2025 제25회 전국 중·고등학생 톰보 연필 소묘 공모전",
+      "Organization": "주최 . ㈜항소, ㈜Tombow",
+      "Target": "대상 . 중학생 , 고등학생",
+      "Date Info": "접수: 06.05~07.11 | 심사: 07.14~07.30 | 발표: 07.31",
+      "D-Day": -49,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505160029"
+    },
+    {
+      "Category": "네이밍•슬로건",
+      "Title": "만석화수 해안산책로 네이밍 공모전",
+      "Organization": "주최 . 인천광역시 동구",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.15~06.03 | 심사: 06.04~06.11 | 발표: 06.16",
+      "D-Day": -11,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030210001&str_no=202505160010"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025년 국립자연휴양림 이용 만족도 향상을 위한 대국민 아이디어 공모",
+      "Organization": "주최 . 산림청",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.26~05.30 | 심사: 06.02~07.02 | 발표: 07.03",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505120027"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "2025년 산불방지 사진 공모전",
+      "Organization": "주최 . 산림청",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.12~06.30 | 심사: 07.01~10.30 | 발표: 10.31",
+      "D-Day": -38,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505120026"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "2025년 산불방지 수기 공모전",
+      "Organization": "주최 . 산림청",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.12~06.30 | 심사: 07.01~10.30 | 발표: 10.31",
+      "D-Day": -38,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505120025"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "제1회 재능실내악 콩쿠르",
+      "Organization": "주최 . JEI 재능문학",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 일반인",
+      "Date Info": "접수: 08.01~08.31 | 심사: 09.01~09.26 | 발표: 09.26",
+      "D-Day": -100,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505120018"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "2025년 제31회 실천문학 신인",
+      "Organization": "주최 . 실천문학사",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.01~07.31 | 심사: 05.01~07.31",
+      "D-Day": -69,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505120012"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제27회 문학동네어린이문학상 공모",
+      "Organization": "주최 . 문학동네",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.01~10.31 | 심사: 11.03~01.01 | 발표: 01.02",
+      "D-Day": -161,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505120009"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제3회 문학동네초승달문학상 공모",
+      "Organization": "주최 . 문학동네",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.01~10.31 | 심사: 11.03~01.01 | 발표: 01.02",
+      "D-Day": -161,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505120008"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제14회 문학동네 동시문학상 공모",
+      "Organization": "주최 . 문학동네",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.01~10.31 | 심사: 11.03~01.01 | 발표: 01.02",
+      "D-Day": -161,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505120007"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "우리말 다시쓰기 공모전",
+      "Organization": "주최 . 울산광역시교육청",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 해당자 ▶",
+      "Date Info": "접수: 05.07~05.22 | 심사: 05.23~05.29 | 발표: 05.30",
+      "D-Day": 0,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505100011"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "제4회 수원특례시 청소년 정책 제안대회",
+      "Organization": "주최 . 수원시청소년청년재단",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 해당자 ▶",
+      "Date Info": "접수: 04.23~06.13 | 심사: 06.16~07.19 | 발표: 07.19",
+      "D-Day": -21,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505100010"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제7회 시흥시 도시·건축 드로잉 공모전",
+      "Organization": "주최 . 시흥시",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 일반인",
+      "Date Info": "접수: 07.11~07.14 | 심사: 07.15~07.31 | 발표: 08.01",
+      "D-Day": -52,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505100009"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "제4회 아산시 호국보훈 청소년영상제",
+      "Organization": "주최 . 아산시",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생",
+      "Date Info": "접수: 06.03~08.23 | 심사: 08.25~10.17 | 발표: 10.18",
+      "D-Day": -92,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505100005"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "2025 강원의료사협 창립 23주년 기념 내가 꿈-꾸는 돌봄 에세이 공모전",
+      "Organization": "주최 . 강원의료복지사회적협동조합",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.01~05.31 | 심사: 06.02~06.13 | 발표: 06.16",
+      "D-Day": -8,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202504240039"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "제23회 대한민국 어린이 국악큰잔치",
+      "Organization": "주최 . 국가유산청",
+      "Target": "대상 . 초등학생",
+      "Date Info": "접수: 06.05~06.11 | 심사: 07.20",
+      "D-Day": -19,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202504250022"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제4회 인천금융고 웹툰애니메이션과 인천중학생 웹툰공모전",
+      "Organization": "주최 . 인천금융고등학교",
+      "Target": "대상 . 중학생 , 해당자 ▶",
+      "Date Info": "접수: 05.19~06.08 | 심사: 06.09~06.10 | 발표: 06.11",
+      "D-Day": -16,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202504230065"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "2025년 지역주민과 함께해요, 제4회 모두와락 20주년 기념 문학 공모전",
+      "Organization": "주최 . 나주시노인복지관",
+      "Target": "대상 . 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 해당자 ▶",
+      "Date Info": "접수: 05.12~06.13 | 심사: 06.16~07.11 | 발표: 07.25",
+      "D-Day": -21,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505150100"
+    },
+    {
+      "Category": "네이밍•슬로건",
+      "Title": "2025년 지역주민과 함께해요, 제4회 모두와락 나노복 20주년 기념 슬로건 공모전",
+      "Organization": "주최 . 나주시노인복지관",
+      "Target": "대상 . 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인",
+      "Date Info": "접수: 05.12~06.13 | 심사: 07.01~07.31 | 발표: 07.25",
+      "D-Day": -21,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030210001&str_no=202505150098"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "제15회 부산 MICE 콘텐츠 공모전",
+      "Organization": "주최 . 부산광역시",
+      "Target": "대상 . 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.26~06.27 | 심사: 07.01~07.31 | 발표: 08.01",
+      "D-Day": -35,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505150096"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "2025 제천시 공예품ㆍ관광기념품 공모전",
+      "Organization": "주최 . 제천시공예협회",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.19~05.30 | 심사: 06.02~06.09 | 발표: 06.10",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505150059"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제21회 국제종합예술대전",
+      "Organization": "주최 . 국제종합예술진흥회, 신아태문화예술연합회",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 06.16~06.30 | 심사: 06.30~07.14 | 발표: 07.14",
+      "D-Day": -38,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505150018"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "[부산 미용업·피부 및 뷰티·헬스케어 업종 창업자금 대출지원사업] 함께가게 모집",
+      "Organization": "주최 . (재)부산형사회연대기금",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.01~05.30 | 심사: 06.02~06.27 | 발표: 05.30",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505150012"
+    },
+    {
+      "Category": "The 다양한 분야",
+      "Title": "2025 제 20회 부산세계시민축제",
+      "Organization": "주최 . 부산광역시, 법무부",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.15~05.24 | 심사: 05.15~05.24",
+      "D-Day": -1,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031810001&str_no=202505150010"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "제11회 세이브더칠드런 아동권리영화제 단편영화 작품 공모",
+      "Organization": "주최 . 세이브더칠드런",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.15~08.04 | 심사: 08.05~10.03 | 발표: 10.06",
+      "D-Day": -73,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505150009"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제15회 반기문 전국 백일장",
+      "Organization": "주최 . 한국예총 충청북도연합회 음성지회",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.15~06.13 | 심사: 06.21~06.30 | 발표: 07.04",
+      "D-Day": -21,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505150006"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "2025 전기사랑 미디어콘텐츠대전",
+      "Organization": "주최 . 한국전기신문사",
+      "Target": "대상 . 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인",
+      "Date Info": "접수: 05.12~09.26 | 심사: 09.27~10.31",
+      "D-Day": -126,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505140098"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "2025 네이버웹툰 고등 최강자전",
+      "Organization": "주최 . (재)한국만화영상진흥원 × 네이버웹툰",
+      "Target": "대상 . 고등학생 , 해당자 ▶",
+      "Date Info": "접수: 08.01~08.11 | 심사: 08.14~09.23 | 발표: 09.26",
+      "D-Day": -80,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505150007"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "JIBS국제드론필름페스티벌 출품작 모집(JDFF 2025)",
+      "Organization": "주최 . JIBS",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 03.18~07.11 | 심사: 07.12~07.31 | 발표: 08.05",
+      "D-Day": -49,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505140100"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제3회 이화여자대학교-티앤씨재단 어린이 미술대회",
+      "Organization": "주최 . 이화여자대학교, 티앤씨재단",
+      "Target": "대상 . 초등학생",
+      "Date Info": "접수: 05.13~06.30 | 심사: 07.01~07.10 | 발표: 07.11",
+      "D-Day": -38,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505140102"
+    },
+    {
+      "Category": "The 다양한 분야",
+      "Title": "2025 생성형 AI 그림 그리기 경진대회",
+      "Organization": "주최 . 충북과학기술혁신원",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.14~06.02 | 심사: 06.04~06.18",
+      "D-Day": -10,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031810001&str_no=202505140092"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "광복 80주년 기념 2025년 보훈유적지 탐방 콘텐츠 공모전",
+      "Organization": "주최 . 제주특별자치도보훈청",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.01~05.30 | 심사: 06.01~06.30",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202504220064"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제32회 한글글꼴디자인 공모전",
+      "Organization": "주최 . 세종대왕기념사업회, 산돌문화재단",
+      "Target": "대상 . 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인",
+      "Date Info": "접수: 05.26~05.31 | 심사: 06.02~06.05 | 발표: 06.16",
+      "D-Day": -8,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202504220062"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "제주특별자치도의회 2025년도 정책아이디어 공모",
+      "Organization": "주최 . 제주특별자치도의회",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.01~07.31 | 심사: 08.01~08.31 | 발표: 09.02",
+      "D-Day": -69,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202504220046"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "디지털 도로대장 활용 아이디어 공모전",
+      "Organization": "주최 . 국토교통부, 한국국토정보공사",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 04.23~06.05 | 심사: 04.23~06.05",
+      "D-Day": -13,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202504220033"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제3회 마약류 피해예방 홍보콘텐츠 공모전",
+      "Organization": "주최 . 제주특별자치도교육청",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 해당자 ▶",
+      "Date Info": "접수: 04.28~06.05 | 심사: 06.06~06.12 | 발표: 06.13",
+      "D-Day": -13,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505090050"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "구리시 2025년 제1회 정책 제안 공모전",
+      "Organization": "주최 . 구리시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.12~05.26 | 심사: 05.27~06.27 | 발표: 06.30",
+      "D-Day": -3,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505090049"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "2025년 '광양 IN, 감동 ON' 인구정책 숏폼 공모전",
+      "Organization": "주최 . 광양시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 06.09~06.13 | 심사: 06.16~06.27 | 발표: 06.30",
+      "D-Day": -21,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505090045"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "제18회 대한민국 전통예술 가무악 연희대제전",
+      "Organization": "주최 . (사)한국국악협회 광주광역시지회, (사)세계예술교류총연합회",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 일반인",
+      "Date Info": "접수: 05.07~06.21 | 심사: 06.29 | 발표: 06.29",
+      "D-Day": -29,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505090043"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "한국시인협회 2025년 제25회 전국 고교생 문예백일장",
+      "Organization": "주최 . (사)한국시인협회",
+      "Target": "대상 . 고등학생",
+      "Date Info": "접수: 05.07~06.30 | 심사: 05.07~06.30",
+      "D-Day": -38,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505090031"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "2025 제2회 전국 밴드경연대회",
+      "Organization": "주최 . 횡성더덕축제위원회",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 06.01~07.18 | 심사: 07.31~09.20 | 발표: 09.20",
+      "D-Day": -56,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505090035"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제3회 미당문학 전국지상백일장 공모",
+      "Organization": "주최 . 미당문학",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 01.01~08.31 | 심사: 01.01~08.31",
+      "D-Day": -100,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505090028"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025 경상남도 민생규제 개선과제 공모전",
+      "Organization": "주최 . 경상남도",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.12~06.13 | 심사: 06.16~08.28 | 발표: 08.29",
+      "D-Day": -21,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505090052"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "롯데재단 신격호 평전 독후활동 공모전",
+      "Organization": "주최 . 롯데재단",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 04.16~06.08 | 심사: 06.09~07.30 | 발표: 07.31",
+      "D-Day": -16,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505090032"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "제18회 대한민국 서봉판소리·민요대제전",
+      "Organization": "주최 . 광주광역시 남구청, 한국유교대학총연합회",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 일반인",
+      "Date Info": "접수: 05.07~06.05 | 심사: 06.08 | 발표: 06.08",
+      "D-Day": -13,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505090042"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제13회 정읍사문학상 작품공모",
+      "Organization": "주최 . 정읍문학회",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.01~07.30 | 심사: 08.01~09.29 | 발표: 09.30",
+      "D-Day": -68,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505090030"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "2025 송당 음악콩쿠르",
+      "Organization": "주최 . 송당문화협회",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 일반인",
+      "Date Info": "접수: 08.11~08.31 | 심사: 09.03~09.13 | 발표: 09.13",
+      "D-Day": -100,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505090034"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "제5회 양주 청소년 댄스페스티벌",
+      "Organization": "주최 . 양주예총",
+      "Target": "대상 . 중학생 , 고등학생",
+      "Date Info": "접수: 05.19~06.08 | 심사: 06.21 | 발표: 06.21",
+      "D-Day": -16,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505080062"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "2025년 제4회 경산시 장애인식개선 공모전",
+      "Organization": "주최 . 경산시장애인종합복지관",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 해당자 ▶",
+      "Date Info": "접수: 04.01~05.16 | 심사: 05.19~05.30",
+      "D-Day": 0,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202504240035"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025 서초「주민 생활실험」아이디어 공모전",
+      "Organization": "주최 . 서초구",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.12~05.22 | 심사: 06.01~06.30 | 발표: 07.31",
+      "D-Day": 0,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202504220027"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "한국수자원공사 댐잇프로젝트  여행기획공모전(팸투어 예산 지원/시상)",
+      "Organization": "주최 . 한국수자원공사 연천포천권지사",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.12~05.28 | 심사: 05.29~06.02 | 발표: 06.03",
+      "D-Day": -5,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505140091"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "2025 세종 청소년 영화·웹툰 공모전",
+      "Organization": "주최 . 세종시문화관광재단",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 해당자 ▶",
+      "Date Info": "접수: 05.15~06.18 | 심사: 06.24~06.25 | 발표: 06.27",
+      "D-Day": -26,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505140084"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "비애티튜드 인스타툰 공모",
+      "Organization": "주최 . 비애티튜드 매거진",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.09~05.30 | 심사: 05.31~06.30",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505140081"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "2025 청소년뉴스제작경진대회",
+      "Organization": "주최 . 방송통신위원회",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 해당자 ▶",
+      "Date Info": "접수: 05.16~07.30 | 심사: 07.31~08.08 | 발표: 08.14",
+      "D-Day": -68,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505140080"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "2025 제1회 미래엔 전국어린이창작동요대회",
+      "Organization": "주최 . 한국교원단체총연합회, 미래엔",
+      "Target": "대상 . 초등학생 , 일반인",
+      "Date Info": "접수: 05.09~05.30 | 심사: 05.09~10.31",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505130093"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "2025년 유성구청소년수련관 캐릭터 공모전",
+      "Organization": "주최 . 유성구청소년수련관",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.13~09.01 | 심사: 09.02~09.30 | 발표: 12.20",
+      "D-Day": -101,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505140006"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "제10회 전국청도관광사진공모전",
+      "Organization": "주최 . 청도군",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.12~07.31 | 심사: 08.08 | 발표: 08.11",
+      "D-Day": -69,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505140024"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "2025년 경상남도교육청 주민참여예산제도 숏츠영상 공모전",
+      "Organization": "주최 . 경상남도교육청",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.13~06.11 | 심사: 06.12~06.25 | 발표: 06.30",
+      "D-Day": -19,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505140044"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "제4회 센터필드 미디어월 영상 콘텐츠 공모전",
+      "Organization": "주최 . 이지스자산운용",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.21~06.22 | 심사: 06.23~06.30 | 발표: 06.30",
+      "D-Day": -30,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505140074"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "2025 경북 국제 AI·메타버스 영상제 공모전",
+      "Organization": "주최 . (재)경북테크노파크",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.01~06.30 | 심사: 07.01~08.30",
+      "D-Day": -38,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505130096"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "강북삼성병원 고객 스토리 공모전 '당신이 경험한 온기를 들려주세요!",
+      "Organization": "주최 . 강북삼성병원",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 04.21~05.18 | 심사: 05.19~05.31",
+      "D-Day": 0,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202504230059"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "어린이 산업안전 포스터 공모전",
+      "Organization": "주최 . 고용노동부원주지청 안전보건공단",
+      "Target": "대상 . 유치원 , 초등학생 , 해당자 ▶",
+      "Date Info": "접수: 04.21~05.23 | 심사: 06.02~06.27 | 발표: 06.30",
+      "D-Day": 0,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202504220063"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "“Root Unseen” 국제전 공모",
+      "Organization": "주최 . CICA 미술관",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.11~05.20 | 심사: 05.11~05.20 | 발표: 06.10",
+      "D-Day": 0,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505110001"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "(가칭)울산학생창의누리관 기관 명칭, 상징 및 캐릭터 공모",
+      "Organization": "주최 . 울산광역시교육청",
+      "Target": "대상 . 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 해당자 ▶",
+      "Date Info": "접수: 05.12~06.08 | 심사: 06.18~07.04 | 발표: 07.17",
+      "D-Day": -16,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505120016"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "한국 어린이 작가협회 -글리버 어린이 작가단 모집",
+      "Organization": "주최 . 한국어린이작가협회",
+      "Target": "대상 . 초등학생 , 중학생",
+      "Date Info": "접수: 05.12~05.30 | 심사: 06.01~06.20 | 발표: 06.20",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505120001"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "2025 H-Arts 전국음악콩쿠르",
+      "Organization": "주최 . 에이치아츠",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 07.07~09.10 | 심사: 09.13",
+      "D-Day": -110,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505120088"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "2025년 제9회 십분발휘 짧은소설 공모전",
+      "Organization": "주최 . 나비날다책방",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 04.17~08.15 | 심사: 08.18~09.09 | 발표: 09.10",
+      "D-Day": -84,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202504210082"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제17회 양주 김삿갓 전국문학대회",
+      "Organization": "주최 . 양주예총",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 일반인",
+      "Date Info": "접수: 04.29~05.22 | 심사: 05.24 | 발표: 05.24",
+      "D-Day": 0,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505080060"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "SYMF 서울청소년뮤직페스티벌 로고 디자인 공모전",
+      "Organization": "주최 . 서울시립청소년음악센터",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 일반인",
+      "Date Info": "접수: 05.07~05.20 | 심사: 05.21~05.29 | 발표: 05.30",
+      "D-Day": 0,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505080058"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "제1회 샤브올데이 댄스 공모전",
+      "Organization": "주최 . 샤브올데이",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.01~06.08 | 심사: 05.01~06.08",
+      "D-Day": -16,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505080055"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "2025 프리즈마 색연필화 공모전",
+      "Organization": "주최 . 프리즈마 공식 공급원 (주)신한커머스",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 일반인",
+      "Date Info": "접수: 08.01~08.30 | 심사: 09.01~10.23 | 발표: 10.24",
+      "D-Day": -99,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505080041"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "GMAFF 2025 Global Metaverse AI Film Festival",
+      "Organization": "주최 . 코리아메타버스저널",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.12~06.08 | 심사: 06.09~06.19 | 발표: 06.20",
+      "D-Day": -16,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505070081"
+    },
+    {
+      "Category": "학문•과학•IT",
+      "Title": "2025년 안산시 공공데이터 활용·분석 아이디어 공모전",
+      "Organization": "주최 . 안산시청",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 06.04~07.04 | 심사: 07.07~08.13",
+      "D-Day": -42,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030310001&str_no=202505130090"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "[정원식품 47주년 기념] 정.원.아 콘테스트",
+      "Organization": "주최 . (주)정원식품",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.12~06.15 | 심사: 06.16~06.17 | 발표: 06.26",
+      "D-Day": -23,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505130087"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025 대한민국 열린 토론대회  토론 논제 공모",
+      "Organization": "주최 . 중앙선거방송토론위원회",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.08~05.20 | 심사: 05.20~05.29 | 발표: 05.30",
+      "D-Day": 0,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505130086"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제 1회 황순원 전국 시낭송경연대회",
+      "Organization": "주최 . 황순원 문학촌 소나기 마을,  양평시낭송가 협회",
+      "Target": "대상 . 고등학생 , 대학생 , 대학원생 , 일반인",
+      "Date Info": "접수: 06.01~07.20 | 심사: 07.30~09.14",
+      "D-Day": -58,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505130004"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제17회 청곡 어린이 사생대회 참가자 모집",
+      "Organization": "주최 . 청곡종합사회복지관",
+      "Target": "대상 . 초등학생 , 해당자 ▶",
+      "Date Info": "접수: 04.01~05.22 | 심사: 05.24",
+      "D-Day": 0,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505080065"
+    },
+    {
+      "Category": "The 다양한 분야",
+      "Title": "목재 공간 대전 : 자연에 더 가까이",
+      "Organization": "주최 . 한국임업진흥원",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.07~07.04 | 심사: 05.07~07.04",
+      "D-Day": -42,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031810001&str_no=202505080035"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "2025년  제29회 왕평가요제 (왕평예술혼잇기)",
+      "Organization": "주최 . 사)한국예총 영천지회",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 06.16~08.22 | 심사: 08.31~09.14 | 발표: 09.01",
+      "D-Day": -91,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505130077"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "\" 2025년 카페 로얄드벨 드론 콘테스트 수상자 발표 \"",
+      "Organization": "주최 . 로얄드벨",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.16 | 심사: 05.16 | 발표: 05.16",
+      "D-Day": 0,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505130074"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "<중구를 담다, 중구를 잇(It)다> 쇼츠 영상 공모전",
+      "Organization": "주최 . 대구광역시 중구청",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.12~10.30 | 심사: 05.12~10.30 | 발표: 11.30",
+      "D-Day": -160,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505130005"
+    },
+    {
+      "Category": "스포츠",
+      "Title": "제12회 청소년 3on3 농구대회 참가자 모집",
+      "Organization": "주최 . 아산시청소년문화의집",
+      "Target": "대상 . 중학생 , 고등학생",
+      "Date Info": "접수: 05.09~05.19 | 심사: 06.06",
+      "D-Day": 0,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030810001&str_no=202505080038"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "2025 전국환경에너지 동요경연대회",
+      "Organization": "주최 . 사단법인 환경운동실천협의회",
+      "Target": "대상 . 유치원 , 초등학생",
+      "Date Info": "접수: 05.08~05.30 | 심사: 06.07 | 발표: 06.07",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505080067"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025년 규제똑똑 군민 아이디어 공모",
+      "Organization": "주최 . 의령군",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.02~06.02 | 심사: 05.02~06.02",
+      "D-Day": -10,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505130042"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "2025년 제 1회 어린이날 그림그리기 대회",
+      "Organization": "주최 . 함소아한의원",
+      "Target": "대상 . 유치원 , 초등학생",
+      "Date Info": "접수: 05.01~05.30 | 심사: 06.02~06.10 | 발표: 06.11",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505130036"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "부산미래유산 #포토빙GO챌린지",
+      "Organization": "주최 . 부산광역시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.01~05.25 | 심사: 05.01~05.25 | 발표: 05.28",
+      "D-Day": -2,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505130023"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제15회 대한민국 무궁화미술대전",
+      "Organization": "주최 . 대한민국무궁화미술대전위원회",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 일반인",
+      "Date Info": "접수: 06.01~06.12 | 심사: 06.13~07.14 | 발표: 07.15",
+      "D-Day": -20,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505130022"
+    },
+    {
+      "Category": "학문•과학•IT",
+      "Title": "제3회 전국 초·중학생 문해력 경시대회",
+      "Organization": "주최 . (주)국풀교육",
+      "Target": "대상 . 초등학생 , 중학생",
+      "Date Info": "접수: 05.07~07.16 | 심사: 08.15 | 발표: 09.09",
+      "D-Day": -54,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030310001&str_no=202505070057"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025 행정안전부 '생활 속 민원제도 개선, 내손으로' 공모전",
+      "Organization": "주최 . 행정안전부",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.08~05.30 | 심사: 06.02~12.30 | 발표: 12.31",
+      "D-Day": -7,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505070052"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "2025 대한민국 평화통일 국악대상",
+      "Organization": "주최 . 사단법인 민족통일불교중앙협의회",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 일반인",
+      "Date Info": "접수: 07.01~07.31 | 심사: 08.16 | 발표: 08.16",
+      "D-Day": -69,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505070048"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2026년 부천시 주민참여예산 사업 공모",
+      "Organization": "주최 . 부천시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.07~06.30 | 심사: 05.07~06.30",
+      "D-Day": -38,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505070051"
+    },
+    {
+      "Category": "음악•콩쿠르•댄스",
+      "Title": "제9회 한국예술무형유산 전국경연대회",
+      "Organization": "주최 . (사)한국예술무형유산진흥회",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인",
+      "Date Info": "접수: 05.12~06.08 | 심사: 06.14",
+      "D-Day": -16,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030910001&str_no=202505070045"
+    },
+    {
+      "Category": "요리•뷰티•배우•오디션",
+      "Title": "2025년 제3회 육우레시피공모전",
+      "Organization": "주최 . 육우자조금관리위원회",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.02~06.08 | 심사: 06.28",
+      "D-Day": -16,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031610001&str_no=202505070039"
+    },
+    {
+      "Category": "아이디어•건축•창업",
+      "Title": "2025년 군포시 지역활력 찾기 제안 공모",
+      "Organization": "주최 . 군포시",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인 , 해당자 ▶",
+      "Date Info": "접수: 05.02~05.31 | 심사: 06.02~07.30 | 발표: 07.31",
+      "D-Day": -8,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031410001&str_no=202505070037"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "제1회 서남해안 해상교량 엠블럼 공모전",
+      "Organization": "주최 . 익산지방국토관리청",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.01~10.31 | 심사: 05.01~10.31",
+      "D-Day": -161,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505070036"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "천씨씨커피 영상공모전 CC필름페스타",
+      "Organization": "주최 . 1000cccoffee",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.19~07.31 | 심사: 08.01~08.20 | 발표: 08.21",
+      "D-Day": -69,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505070034"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "제37회 포항전국사진공모전",
+      "Organization": "주최 . (사)한국사진작가협회 포항지부",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 09.01~09.18 | 심사: 09.01~09.18 | 발표: 09.22",
+      "D-Day": -118,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505070011"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "와시즈 캐릭터 공모전",
+      "Organization": "주최 . (주)비에이에스에이치",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생 , 일반인",
+      "Date Info": "접수: 04.23~05.31 | 심사: 06.02~06.27 | 발표: 06.30",
+      "D-Day": -8,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505070002"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "제17회 포항관광전국사진공모전",
+      "Organization": "주최 . (사)한국사진작가협회 포항지부",
+      "Target": "대상 . 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인",
+      "Date Info": "접수: 05.07~10.16 | 심사: 10.17~10.19 | 발표: 10.20",
+      "D-Day": -146,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505070010"
+    },
+    {
+      "Category": "사진•영상•영화제",
+      "Title": "2025년 포항국제불빛축제 전국학생휴대폰사진공모전",
+      "Organization": "주최 . (사)한국사진작가협회 포항지부",
+      "Target": "대상 . 중학생 , 고등학생",
+      "Date Info": "접수: 06.20~07.06 | 심사: 07.07~07.11 | 발표: 07.14",
+      "D-Day": -44,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=031210001&str_no=202505070009"
+    },
+    {
+      "Category": "문학•문예",
+      "Title": "제17회 복숭아 문학상",
+      "Organization": "주최 . 청미문학회",
+      "Target": "대상 . 고등학생 , 대학생 , 일반인 , 해당자 ▶",
+      "Date Info": "접수: 07.01~07.31 | 심사: 08.01~08.29 | 발표: 09.01",
+      "D-Day": -69,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030110001&str_no=202505070007"
+    },
+    {
+      "Category": "미술•디자인•웹툰",
+      "Title": "대한민국 최초 전국 모바일스케치 공모 대회",
+      "Organization": "주최 . 한국모바일아티스트협동조합",
+      "Target": "대상 . 초등학생 , 중학생 , 고등학생",
+      "Date Info": "접수: 05.23~05.25 | 심사: 05.23~05.25 | 발표: 06.09",
+      "D-Day": -2,
+      "Link": "https://www.contestkorea.comview.php?int_gbn=1&Txt_bcode=030610001&str_no=202505030009"
+    }
+  ]
+}

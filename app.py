@@ -1,10 +1,12 @@
 import streamlit as st
-import requests
-from bs4 import BeautifulSoup
-import pandas as pd
-from datetime import datetime
 import logging
-import time
+from scraper.contest_scraper import scrape_contests
+from ui.display_korea import display_contests
+from ui.display_ics import display_ics_competitions
+import json
+import os
+import subprocess
+from datetime import datetime, date
 
 # Set page to wide mode (must be the first Streamlit command)
 st.set_page_config(layout="wide")
@@ -16,384 +18,155 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+KOREA_JSON = "contests_korea.json"
+ICS_JSON = "ics_competitions.json"
+KOREA_TIMESTAMP_KEY = "contests_korea_last_scraped"
+ICS_TIMESTAMP_KEY = "ics_competitions_last_scraped"
+
 # Initialize session state for storing scraped data
 if 'contests_data' not in st.session_state:
     st.session_state.contests_data = []
 if 'filter_counter' not in st.session_state:
     st.session_state.filter_counter = 0
+if 'ics_competitions' not in st.session_state:
+    st.session_state.ics_competitions = []
+if KOREA_TIMESTAMP_KEY not in st.session_state:
+    st.session_state[KOREA_TIMESTAMP_KEY] = None
+if ICS_TIMESTAMP_KEY not in st.session_state:
+    st.session_state[ICS_TIMESTAMP_KEY] = None
+if 'korea_autoscraped_today' not in st.session_state:
+    st.session_state.korea_autoscraped_today = False
 
-def extract_days_left(dday_text):
-    """Extract numeric days left from D-Day text."""
-    try:
-        # Remove any non-numeric characters except minus sign
-        days = ''.join(c for c in dday_text if c.isdigit() or c == '-')
-        return int(days) if days else 0
-    except:
-        return 0
-
-def scrape_contests(max_pages=None):
-    base_url = "https://www.contestkorea.com/sub/list.php"
-    params = {
-        "displayrow": "12",
-        "int_gbn": "1",
-        "Txt_sGn": "1",
-        "Txt_key": "all",
-        "Txt_word": "",
-        "Txt_bcode": "",
-        "Txt_code1[0]": "98",
-        "Txt_code1[1]": "27",
-        "Txt_code1[2]": "28",
-        "Txt_code1[3]": "29",
-        "Txt_aarea": "",
-        "Txt_area": "",
-        "Txt_sortkey": "a.int_sort",
-        "Txt_sortword": "desc",
-        "Txt_host": "",
-        "Txt_award": "",
-        "Txt_award2": "",
-        "Txt_code3": "",
-        "Txt_tipyn": "",
-        "Txt_comment": "",
-        "Txt_resultyn": "",
-        "Txt_actcode": "",
-    }
-    
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-        'Accept-Language': 'en-US,en;q=0.5',
-        'Connection': 'keep-alive',
-    }
-    
-    all_contests = []
-    page = 1
-    
-    # Progress bar for scraping
-    progress_bar = st.progress(0)
-    status_text = st.empty()
-    
-    try:
-        # Set the number of pages to scrape
-        pages_to_scrape = max_pages if max_pages is not None else float('inf')
-        logger.info(f"Will attempt to scrape up to {pages_to_scrape} pages")
-        status_text.text(f"Scraping page 1...")
-        
-        # Scrape each page until we hit the limit or find an invalid page
-        while True:
-            # Check if we've hit the page limit
-            if page > pages_to_scrape:
-                break
-                
-            params["page"] = page
-            response = requests.get(base_url, params=params, headers=headers, timeout=10)
-            
-            # If we get a 404 or no content, we've reached the end
-            if response.status_code == 404 or len(response.content) == 0:
-                logger.info(f"Reached end of available pages at page {page-1}")
-                break
-                
-            response.raise_for_status()
-            soup = BeautifulSoup(response.text, 'lxml')
-            
-            # Find the main container
-            main_container = soup.find('div', class_='list_style_2')
-            if not main_container:
-                logger.info(f"No more contests found at page {page}")
-                break
-                
-            # Get all list items within the container that have a title div
-            contest_items = main_container.find_all('li', class_=lambda x: x != 'icon_1' and x != 'icon_2')
-            
-            if not contest_items:
-                logger.info(f"No contest items found on page {page}")
-                break
-                
-            logger.info(f"Found {len(contest_items)} contest items on page {page}")
-            
-            for item in contest_items:
-                try:
-                    # Get title and link from the title div
-                    title_div = item.find('div', class_='title')
-                    if not title_div:
-                        continue
-                        
-                    title_link = title_div.find('a')
-                    if not title_link:
-                        continue
-                        
-                    # Get category and title
-                    category_elem = title_link.find('span', class_='category')
-                    title_elem = title_link.find('span', class_='txt')
-                    
-                    if not category_elem or not title_elem:
-                        continue
-                        
-                    category = category_elem.text.strip()
-                    title = title_elem.text.strip()
-                    link = "https://www.contestkorea.com" + title_link['href']
-                    
-                    # Get host information
-                    host_ul = item.find('ul', class_='host')
-                    organization = "N/A"
-                    target = "N/A"
-                    
-                    if host_ul:
-                        host_li = host_ul.find('li', class_='icon_1')
-                        if host_li:
-                            organization = host_li.text.replace('주최.', '').strip()
-                        
-                        target_li = host_ul.find('li', class_='icon_2')
-                        if target_li:
-                            # Remove '대상.' and clean up spaces
-                            target = target_li.text.replace('대상.', '').strip()
-                            # Remove multiple spaces and newlines
-                            target = ' '.join(target.split())
-                    
-                    # Get date information
-                    date_div = item.find('div', class_='date')
-                    date_info = "N/A"
-                    if date_div:
-                        date_spans = date_div.find_all('span')
-                        dates = []
-                        for span in date_spans:
-                            step = span.find('em')
-                            if step:
-                                step_text = step.text.strip()
-                                date = span.text.replace(step_text, '').strip()
-                                dates.append(f"{step_text}: {date}")
-                        date_info = " | ".join(dates) if dates else "N/A"
-                    
-                    # Get D-day information
-                    dday_div = item.find('div', class_='d-day')
-                    days_left = 0
-                    if dday_div:
-                        dday = dday_div.find('span', class_='day')
-                        if dday:
-                            dday_text = dday.text.strip()
-                            days_left = extract_days_left(dday_text)
-                    
-                    all_contests.append({
-                        'Category': category,
-                        'Title': title,
-                        'Organization': organization,
-                        'Target': target,
-                        'Date Info': date_info,
-                        'D-Day': days_left,  # Store as integer for sorting and display
-                        'Link': link
-                    })
-                    
-                    logger.info(f"Successfully processed contest: {title}")
-                    
-                except Exception as e:
-                    logger.error(f"Error processing item on page {page}: {str(e)}")
-                    continue
-            
-            # Update progress
-            if pages_to_scrape != float('inf'):
-                progress = page / pages_to_scrape
-                progress_bar.progress(progress)
-            status_text.text(f"Scraping page {page}...")
-            
-            # Move to next page
-            page += 1
-            
-            # Add a small delay to avoid overloading the server
-            time.sleep(1)
-            
-        # Clear progress indicators
-        progress_bar.empty()
-        status_text.empty()
-        
-        # Store the scraped data in session state
-        st.session_state.contests_data = all_contests
-        
-        return all_contests
-    except requests.exceptions.RequestException as e:
-        logger.error(f"Network error occurred: {str(e)}")
-        return all_contests
-    except Exception as e:
-        logger.error(f"Error scraping contests: {str(e)}")
-        return all_contests
-
-def generate_contest_summary(contest):
-    """Generate a summary of the contest details."""
-    summary = f"""
-### {contest['Title']}
-
-**Category:** {contest['Category']}
-
-**Organization:** {contest['Organization']}
-
-**Target Participants:** {contest['Target']}
-
-**Deadline Information:**
-{contest['Date Info']}
-
-**Days Left:** {contest['D-Day']} days
-
-**Application Link:** {contest['Link']}
-
-**Keywords:**
-- Category: {contest['Category']}
-- Target: {contest['Target']}
-- Application Method: Online (via contestkorea.com)
-"""
-    return summary
-
-def display_contests(contests):
-    if contests:
-        df = pd.DataFrame(contests)
-        
-        # Sort by D-Day (ascending order - smallest/most urgent first)
-        df = df.sort_values('D-Day', ascending=True)
-        
-        # Create a container for the summary
-        summary_container = st.empty()
-        
-        # Get unique categories for filtering
-        unique_categories = sorted(df['Category'].unique())
-        
-        # Add category filter with a dynamic unique key
-        st.subheader("Filter by Category")
-        selected_categories = st.multiselect(
-            "Select categories to display",
-            options=unique_categories,
-            default=unique_categories,
-            help="Choose one or more categories to filter the contests",
-            key=f"category_filter_{st.session_state.filter_counter}"
-        )
-        
-        # Filter dataframe by selected categories
-        if selected_categories:
-            filtered_df = df[df['Category'].isin(selected_categories)]
-        else:
-            filtered_df = df
-        
-        # Display contest count
-        st.subheader(f"Showing {len(filtered_df)} contests")
-        
-        # Create a form for the table
-        with st.form(key="contests_form"):
-            # Add checkboxes to the dataframe
-            filtered_df['Select'] = False
-            
-            # Reorder columns
-            column_order = ['Select', 'D-Day', 'Title', 'Category', 'Organization', 'Target', 'Date Info', 'Link']
-            filtered_df = filtered_df[column_order]
-            
-            # Display the data with sortable columns
-            st.dataframe(
-                filtered_df,
-                column_config={
-                    "Select": st.column_config.CheckboxColumn(
-                        "Select",
-                        help="Select contests to view summary",
-                        default=False,
-                    ),
-                    "D-Day": st.column_config.NumberColumn(
-                        "D-Day",
-                        help="Days left until deadline",
-                        format="%d",
-                    ),
-                    "Title": st.column_config.TextColumn(
-                        "Title",
-                        help="Contest title",
-                    ),
-                    "Category": st.column_config.TextColumn(
-                        "Category",
-                        help="Contest category",
-                    ),
-                    "Organization": st.column_config.TextColumn(
-                        "Organization",
-                        help="Contest organizer",
-                    ),
-                    "Target": st.column_config.TextColumn(
-                        "Target",
-                        help="Target participants",
-                    ),
-                    "Date Info": st.column_config.TextColumn(
-                        "Date Info",
-                        help="Contest dates",
-                    ),
-                    "Link": st.column_config.LinkColumn(
-                        "Link",
-                        help="Contest link",
-                    ),
-                },
-                hide_index=True,
-                use_container_width=True,
-            )
-            
-            # Add submit button
-            submit_button = st.form_submit_button("View Selected Summary")
-            
-            # Handle form submission
-            if submit_button:
-                selected_rows = filtered_df[filtered_df['Select'] == True]
-                for _, row in selected_rows.iterrows():
-                    summary = generate_contest_summary(row)
-                    summary_container.markdown(summary)
-        
-        # Add download button
-        csv = filtered_df.to_csv(index=False)
-        st.download_button(
-            label="Download CSV",
-            data=csv,
-            file_name="contests.csv",
-            mime="text/csv",
-            key=f"download_button_{st.session_state.filter_counter}"
-        )
-        
-        # Display summary
-        st.info(f"Found {len(contests)} contests across all pages.")
+def load_json_with_timestamp(filename, timestamp_key):
+    if os.path.exists(filename):
+        try:
+            with open(filename, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            ts = data.get('last_scraped')
+            if ts:
+                st.session_state[timestamp_key] = ts
+            return data.get('contests', data) if isinstance(data, dict) else data
+        except Exception as e:
+            st.warning(f"Failed to load {filename}: {e}")
+            return []
     else:
-        st.warning("No contests found or error occurred while scraping.")
+        st.warning(f"{filename} not found. Please run the scraper.")
+        return []
+
+def save_json_with_timestamp(filename, data, timestamp_key):
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    obj = {'last_scraped': ts, 'contests': data}
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, indent=2)
+    st.session_state[timestamp_key] = ts
+
+def load_ics_competitions_from_json():
+    return load_json_with_timestamp(ICS_JSON, ICS_TIMESTAMP_KEY)
+
+def update_ics_competitions_json():
+    st.info("Updating ICS competitions using Playwright. Please wait...")
+    try:
+        result = subprocess.run([
+            "python", "-m", "scraper.run_ics_playwright"
+        ], capture_output=True, text=True)
+        if result.returncode == 0:
+            st.success("ICS competitions updated successfully!")
+        else:
+            st.error(f"Failed to update ICS competitions. Error: {result.stderr}")
+    except Exception as e:
+        st.error(f"Exception while updating ICS competitions: {e}")
+    # Save timestamp
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    st.session_state[ICS_TIMESTAMP_KEY] = ts
+    # Reload data
+    st.session_state.ics_competitions = load_ics_competitions_from_json()
+
+def load_korea_contests_from_json():
+    return load_json_with_timestamp(KOREA_JSON, KOREA_TIMESTAMP_KEY)
+
+def update_korea_contests_json():
+    st.info("Scraping all Contest Korea contests. Please wait...")
+    try:
+        contests = scrape_contests(max_pages=20)
+        save_json_with_timestamp(KOREA_JSON, contests, KOREA_TIMESTAMP_KEY)
+        st.session_state.contests_data = contests
+        st.session_state.korea_autoscraped_today = True
+        st.success("Contest Korea contests updated successfully!")
+    except Exception as e:
+        st.error(f"Exception while scraping Contest Korea: {e}")
+
+def check_and_auto_update(filename, timestamp_key, update_func, load_func):
+    """If the date has changed since last scrape, auto-update."""
+    last_scraped = None
+    if os.path.exists(filename):
+        try:
+            with open(filename, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            last_scraped = data.get('last_scraped')
+        except Exception:
+            pass
+    today_str = date.today().strftime("%Y-%m-%d")
+    if not last_scraped or not last_scraped.startswith(today_str):
+        update_func()
+    else:
+        # Load from file if not already loaded
+        if not st.session_state.get(timestamp_key):
+            load_func()
 
 def main():
     st.title("Contest Korea Scraper")
     
-    # Add page limit option
+    # Add page limit option (for display only, not for scraping)
     max_pages = st.slider(
-        "Maximum number of pages to scrape",
+        "Maximum number of pages to display",
         min_value=1,
-        max_value=20,
-        value=1,
-        help="Limit the number of pages to scrape to avoid long loading times",
-        key="page_limit_slider"  # Add a unique key for the slider
+        max_value=50,
+        value=20,
+        help="Limit the number of pages to display (scraping always fetches all)",
+        key="page_limit_slider"
     )
     
     # Create a placeholder for the contests display
     contests_placeholder = st.empty()
+    ics_placeholder = st.empty()
     
-    # Initialize session state for max_pages if not exists
-    if 'current_max_pages' not in st.session_state:
-        st.session_state.current_max_pages = max_pages
-    
-    # Force refresh if max_pages has changed
-    if st.session_state.current_max_pages != max_pages:
-        st.session_state.contests_data = []  # Clear existing data
-        st.session_state.current_max_pages = max_pages
-        # Force immediate refresh
-        contests = scrape_contests(max_pages)
-        with contests_placeholder.container():
-            display_contests(contests)
-    else:
-        # Check if we already have data in session state
-        if not st.session_state.contests_data:
-            # Initial scraping if no data exists
-            contests = scrape_contests(max_pages)
-            with contests_placeholder.container():
-                display_contests(contests)
-        else:
-            # Use existing data from session state
-            with contests_placeholder.container():
-                display_contests(st.session_state.contests_data)
-    
-    # Add refresh button
-    if st.button("Refresh Contests"):
-        contests = scrape_contests(max_pages)
-        with contests_placeholder.container():
-            display_contests(contests)
+    # Always load cached data first
+    if not st.session_state.contests_data:
+        st.session_state.contests_data = load_json_with_timestamp(KOREA_JSON, KOREA_TIMESTAMP_KEY)
+
+    # Show table immediately
+    with contests_placeholder.container():
+        # Only display up to max_pages * 12 items (12 per page)
+        display_contests(st.session_state.contests_data[:max_pages*12])
+        # Move the refresh button here, just below the filter/table
+        if st.button("Refresh Contest Korea Contests"):
+            update_korea_contests_json()
+            st.session_state.contests_data = load_json_with_timestamp(KOREA_JSON, KOREA_TIMESTAMP_KEY)
+            st.experimental_rerun()
+    # Show last scrape time for Contest Korea
+    if st.session_state[KOREA_TIMESTAMP_KEY]:
+        st.caption(f"Contest Korea last scraped: {st.session_state[KOREA_TIMESTAMP_KEY]}")
+
+    # If the date has changed, trigger a scrape in the background (but only once per session)
+    last_scraped = st.session_state.get(KOREA_TIMESTAMP_KEY)
+    today_str = date.today().strftime("%Y-%m-%d")
+    if (not last_scraped or not last_scraped.startswith(today_str)) and not st.session_state.korea_autoscraped_today:
+        st.info("Automatically scraping Contest Korea for today's data...")
+        update_korea_contests_json()
+        st.session_state.contests_data = load_json_with_timestamp(KOREA_JSON, KOREA_TIMESTAMP_KEY)
+        st.experimental_rerun()
+
+    # Auto-update if date has changed for ICS (but do not block Korea display)
+    check_and_auto_update(ICS_JSON, ICS_TIMESTAMP_KEY, update_ics_competitions_json, lambda: st.session_state.update({'ics_competitions': load_ics_competitions_from_json()}))
+    # Show last scrape time for ICS
+    if st.session_state[ICS_TIMESTAMP_KEY]:
+        st.caption(f"ICS competitions last scraped: {st.session_state[ICS_TIMESTAMP_KEY]}")
+    # Button to update ICS competitions
+    if st.button("Update ICS Competitions (Playwright)"):
+        update_ics_competitions_json()
+    # Display ICS table
+    with ics_placeholder.container():
+        display_ics_competitions(st.session_state.ics_competitions)
 
 if __name__ == "__main__":
     main() 
